@@ -1,0 +1,10 @@
+Train error: 0.054712, Train bit-fail: 397, Test error: 0.054712, Test bit-fail: 397
+
+Saving network.
+Cleaning up.
+
+real	2m21.033s
+user	2m20.818s
+sys	0m0.203s
+
+100 samples

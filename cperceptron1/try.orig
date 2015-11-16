@@ -1,0 +1,28 @@
+<?php
+include 'cperceptron.php';
+
+$error='1';
+$iter='10000';
+$vel='0.5';
+
+$trainIn = array(
+    array(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),
+    array(1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1),
+    array(-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1),
+    array(-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1));
+
+$trainOut = array(
+    array(1,1,1),
+    array(1,-1,1),
+    array(-1,1,-1),
+    array(-1,-1,-1));
+    #array(1),
+    #array(-1));
+
+$cp = new cperceptron();
+$w = $cp->trainPS($trainIn, $trainOut, $error, $iter, $vel);
+
+$test = $cp->matrix2Vector($trainIn, 0);
+$res = $cp->prodMatrix($test, $w);
+$out = $cp->signMatrix($res);
+print_r($out);

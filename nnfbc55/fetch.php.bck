@@ -1,0 +1,43 @@
+<?php
+
+function bchexdec($hex)
+{
+	    $len = strlen($hex);
+	        for ($i = 1; $i <= $len; $i++)
+	        $dec = bcadd($dec, bcmul(strval(hexdec($hex[$i - 1])), bcpow('16', strval($len - $i))));
+   
+	    return $dec;
+}
+
+$block = "000000000000000046c6a2cfbf9e5b822270edcd91ab9a2af0a13e7af3037895";
+for ($i = 1; $i <= 10; $i++) {
+	$data = json_decode(file_get_contents("http://blockexplorer.com/rawblock/$block"));
+	$block = "$data->prev_block";
+	
+	$data->prev_block = bchexdec($data->prev_block); 
+	$data->prev_block = chunk_split($data->prev_block, 1, " "); 
+	#$data->prev_block = hexdec($data->prev_block); 
+
+	$data->mrkl_root = bchexdec($data->mrkl_root); 
+	$data->mrkl_root = chunk_split($data->mrkl_root, 1, " "); 
+
+	#$data->time = bchexdec($data->time); 
+	#if(strlen($data->time) < 10)
+	#	$data->time = 0 . $data->time; 
+	$data->time = chunk_split($data->time, 1, " "); 
+
+	#$data->bits = bchexdec($data->bits); 
+	#if(strlen($data->bits) < 10)
+	#	$data->bits = 0 . $data->bits; 
+	$data->bits = chunk_split($data->bits, 1, " "); 
+
+	#$data->nonce = bchexdec($data->nonce); 
+	if(strlen($data->nonce) < 10)
+		$data->nonce = 0 . $data->nonce; 
+	$data->nonce = chunk_split($data->nonce, 1, " "); 
+
+	echo "$data->prev_block$data->mrkl_root$data->time$data->bits\n";
+	echo "$data->nonce\n";
+
+}
+?>

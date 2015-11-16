@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.5.0
+Encoding=UTF-8
+Name=NeuralView
+Comment=Neural network simulator
+Icon=/opt/neuralview/logo.png
+Exec=/opt/neuralview/neuralview
+StartupNotify=true
+Terminal=false
+Categories=Education

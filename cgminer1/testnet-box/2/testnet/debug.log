@@ -1,0 +1,775 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bitcoin version vCLIENT_VERSION_MAJOR.CLIENT_VERSION_MINOR.CLIENT_VERSION_REVISION.CLIENT_VERSION_BUILD-g40fd689-beta ()
+Default data directory /root/.bitcoin
+Loading addresses...
+dbenv.open LogDir=/root/git/cgminer/testnet-box/2/testnet/database ErrorFile=/root/git/cgminer/testnet-box/2/testnet/db.log
+Loaded 0 addresses
+ addresses               217ms
+Loading block index...
+00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008
+00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008
+4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+CBlock(hash=00000007199508e34a9f, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=4a5e1e4baa, nTime=1296688602, nBits=1d07fff8, nNonce=384568319, vtx=1)
+  CTransaction(hash=4a5e1e4baa, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73)
+    CTxOut(nValue=50.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+  vMerkleTree: 4a5e1e4baa 
+SetBestChain: new best=00000007199508e34a9f  height=0  work=536879104
+ block index             205ms
+Loading wallet...
+nFileVersion = 60202
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool reserve 1
+keypool keep 1
+ wallet                  611ms
+Done loading
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 5
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+ThreadRPCServer started
+ipv4 eth2: 10.1.2.55
+addrLocalHost = 10.1.2.55:19010
+addrLocalHost = 0.0.0.0:19010
+DNS seeding disabled
+ThreadOpenAddedConnections started
+ThreadSocketHandler started
+ThreadOpenAddedConnections exiting
+ThreadIRCSeed exiting
+ThreadOpenConnections started
+ThreadMessageHandler started
+trying connection 127.0.0.1:19000 lastseen=-358704.9hrs
+connected 127.0.0.1:19000
+Added time data, samples 2, offset +0 (+0 minutes)
+version message: version 60001, blocks=0
+getblocks -1 to 00000000000000000000 limit 500
+02/02/14 10:42:58 Flushing wallet.dat
+Flushed wallet.dat 108ms
+Added 1 addresses from 127.0.0.1: 0 tried, 1 new
+ResendWalletTransactions()
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+askfor block 000000035e85059576ad   0
+sending getdata: block 000000035e85059576ad
+received block 000000035e85059576ad
+SetBestChain: new best=000000035e85059576ad  height=1  work=805314816
+ProcessBlock: ACCEPTED
+02/02/14 11:13:50 Flushing wallet.dat
+Flushed wallet.dat 41ms
+askfor block 0000000019d00c86e85e   0
+sending getdata: block 0000000019d00c86e85e
+received block 0000000019d00c86e85e
+SetBestChain: new best=0000000019d00c86e85e  height=2  work=1342193920
+ProcessBlock: ACCEPTED
+02/02/14 11:16:39 Flushing wallet.dat
+Flushed wallet.dat 39ms
+askfor block 00000007d885caea0d04   0
+sending getdata: block 00000007d885caea0d04
+received block 00000007d885caea0d04
+SetBestChain: new best=00000007d885caea0d04  height=3  work=1879073024
+ProcessBlock: ACCEPTED
+02/02/14 11:19:35 Flushing wallet.dat
+Flushed wallet.dat 40ms
+askfor block 00000007ada60d6f3449   0
+sending getdata: block 00000007ada60d6f3449
+received block 00000007ada60d6f3449
+SetBestChain: new best=00000007ada60d6f3449  height=4  work=2415952128
+ProcessBlock: ACCEPTED
+02/02/14 11:20:19 Flushing wallet.dat
+Flushed wallet.dat 31ms
+askfor block 000000075d44d2cf1028   0
+sending getdata: block 000000075d44d2cf1028
+received block 000000075d44d2cf1028
+SetBestChain: new best=000000075d44d2cf1028  height=5  work=2952831232
+ProcessBlock: ACCEPTED
+02/02/14 11:20:50 Flushing wallet.dat
+Flushed wallet.dat 135ms
+askfor block 00000002e70ed7b4ae97   0
+sending getdata: block 00000002e70ed7b4ae97
+received block 00000002e70ed7b4ae97
+SetBestChain: new best=00000002e70ed7b4ae97  height=6  work=3489710336
+ProcessBlock: ACCEPTED
+02/02/14 11:22:00 Flushing wallet.dat
+Flushed wallet.dat 37ms
+ResendWalletTransactions()
+askfor block 000000003cd6fbca9b44   0
+sending getdata: block 000000003cd6fbca9b44
+received block 000000003cd6fbca9b44
+SetBestChain: new best=000000003cd6fbca9b44  height=7  work=4026589440
+ProcessBlock: ACCEPTED
+02/02/14 11:26:43 Flushing wallet.dat
+Flushed wallet.dat 36ms
+ThreadRPCServer method=getinfo
+keypool added key 7, size=6
+keypool reserve 2
+keypool return 2
+02/02/14 11:27:45 Flushing wallet.dat
+Flushed wallet.dat 71ms
+askfor block 00000004283948c71aa8   0
+sending getdata: block 00000004283948c71aa8
+received block 00000004283948c71aa8
+SetBestChain: new best=00000004283948c71aa8  height=8  work=4563468544
+ProcessBlock: ACCEPTED
+02/02/14 11:28:37 Flushing wallet.dat
+Flushed wallet.dat 39ms
+askfor block 00000002cc67234669a3   0
+sending getdata: block 00000002cc67234669a3
+received block 00000002cc67234669a3
+SetBestChain: new best=00000002cc67234669a3  height=9  work=5100347648
+ProcessBlock: ACCEPTED
+02/02/14 11:36:16 Flushing wallet.dat
+Flushed wallet.dat 118ms
+askfor block 0000000116e1617ac898   0
+sending getdata: block 0000000116e1617ac898
+received block 0000000116e1617ac898
+SetBestChain: new best=0000000116e1617ac898  height=10  work=5637226752
+ProcessBlock: ACCEPTED
+02/02/14 11:42:03 Flushing wallet.dat
+Flushed wallet.dat 65ms
+ResendWalletTransactions()
+askfor block 000000021d6740f6e2df   0
+sending getdata: block 000000021d6740f6e2df
+received block 000000021d6740f6e2df
+SetBestChain: new best=000000021d6740f6e2df  height=11  work=6174105856
+ProcessBlock: ACCEPTED
+02/02/14 11:44:57 Flushing wallet.dat
+Flushed wallet.dat 32ms
+askfor block 00000007ee961825e381   0
+sending getdata: block 00000007ee961825e381
+received block 00000007ee961825e381
+SetBestChain: new best=00000007ee961825e381  height=12  work=6710984960
+ProcessBlock: ACCEPTED
+02/02/14 11:55:35 Flushing wallet.dat
+Flushed wallet.dat 33ms
+askfor block 00000005d05cb3cd6649   0
+sending getdata: block 00000005d05cb3cd6649
+received block 00000005d05cb3cd6649
+SetBestChain: new best=00000005d05cb3cd6649  height=13  work=7247864064
+ProcessBlock: ACCEPTED
+02/02/14 11:57:15 Flushing wallet.dat
+Flushed wallet.dat 36ms
+askfor block 000000011300a5fb4c8f   0
+sending getdata: block 000000011300a5fb4c8f
+received block 000000011300a5fb4c8f
+SetBestChain: new best=000000011300a5fb4c8f  height=14  work=7784743168
+ProcessBlock: ACCEPTED
+02/02/14 11:58:33 Flushing wallet.dat
+Flushed wallet.dat 33ms
+askfor block 00000003bf464c1f89fd   0
+sending getdata: block 00000003bf464c1f89fd
+received block 00000003bf464c1f89fd
+SetBestChain: new best=00000003bf464c1f89fd  height=15  work=8321622272
+ProcessBlock: ACCEPTED
+02/02/14 12:03:10 Flushing wallet.dat
+Flushed wallet.dat 33ms
+ResendWalletTransactions()
+askfor block 00000007cbd411a15092   0
+sending getdata: block 00000007cbd411a15092
+received block 00000007cbd411a15092
+SetBestChain: new best=00000007cbd411a15092  height=16  work=8858501376
+ProcessBlock: ACCEPTED
+02/02/14 12:06:26 Flushing wallet.dat
+Flushed wallet.dat 38ms
+askfor block 00000006676417f1592a   0
+sending getdata: block 00000006676417f1592a
+received block 00000006676417f1592a
+SetBestChain: new best=00000006676417f1592a  height=17  work=9395380480
+ProcessBlock: ACCEPTED
+02/02/14 12:06:48 Flushing wallet.dat
+Flushed wallet.dat 41ms
+askfor block 00000004a9e996e6a7d5   0
+sending getdata: block 00000004a9e996e6a7d5
+received block 00000004a9e996e6a7d5
+SetBestChain: new best=00000004a9e996e6a7d5  height=18  work=9932259584
+ProcessBlock: ACCEPTED
+02/02/14 12:08:35 Flushing wallet.dat
+Flushed wallet.dat 35ms
+askfor block 000000068f4048b7c65f   0
+sending getdata: block 000000068f4048b7c65f
+received block 000000068f4048b7c65f
+SetBestChain: new best=000000068f4048b7c65f  height=19  work=10469138688
+ProcessBlock: ACCEPTED
+02/02/14 12:17:06 Flushing wallet.dat
+Flushed wallet.dat 76ms
+askfor block 00000003918a61c80bfc   0
+sending getdata: block 00000003918a61c80bfc
+received block 00000003918a61c80bfc
+SetBestChain: new best=00000003918a61c80bfc  height=20  work=11006017792
+ProcessBlock: ACCEPTED
+02/02/14 12:18:50 Flushing wallet.dat
+Flushed wallet.dat 35ms
+askfor block 00000007a3e7ded8d7a3   0
+sending getdata: block 00000007a3e7ded8d7a3
+received block 00000007a3e7ded8d7a3
+SetBestChain: new best=00000007a3e7ded8d7a3  height=21  work=11542896896
+ProcessBlock: ACCEPTED
+ResendWalletTransactions()
+02/02/14 12:21:15 Flushing wallet.dat
+Flushed wallet.dat 32ms
+askfor block 00000000fe1a4c167164   0
+sending getdata: block 00000000fe1a4c167164
+received block 00000000fe1a4c167164
+SetBestChain: new best=00000000fe1a4c167164  height=22  work=12079776000
+ProcessBlock: ACCEPTED
+02/02/14 12:31:41 Flushing wallet.dat
+Flushed wallet.dat 44ms
+askfor block 00000004ad7c3eba8954   0
+sending getdata: block 00000004ad7c3eba8954
+received block 00000004ad7c3eba8954
+SetBestChain: new best=00000004ad7c3eba8954  height=23  work=12616655104
+ProcessBlock: ACCEPTED
+askfor block 00000001ad23e981aef0   0
+sending getdata: block 00000001ad23e981aef0
+received block 00000001ad23e981aef0
+SetBestChain: new best=00000001ad23e981aef0  height=24  work=13153534208
+ProcessBlock: ACCEPTED
+02/02/14 12:38:23 Flushing wallet.dat
+Flushed wallet.dat 49ms
+ResendWalletTransactions()
+askfor block 000000068ddfb7f08f63   0
+sending getdata: block 000000068ddfb7f08f63
+received block 000000068ddfb7f08f63
+SetBestChain: new best=000000068ddfb7f08f63  height=25  work=13690413312
+ProcessBlock: ACCEPTED
+02/02/14 12:39:47 Flushing wallet.dat
+Flushed wallet.dat 45ms
+askfor block 000000007011954c67b0   0
+sending getdata: block 000000007011954c67b0
+received block 000000007011954c67b0
+SetBestChain: new best=000000007011954c67b0  height=26  work=14227292416
+ProcessBlock: ACCEPTED
+02/02/14 12:43:38 Flushing wallet.dat
+Flushed wallet.dat 54ms
+askfor block 000000006a0098579e1b   0
+sending getdata: block 000000006a0098579e1b
+received block 000000006a0098579e1b
+SetBestChain: new best=000000006a0098579e1b  height=27  work=14764171520
+ProcessBlock: ACCEPTED
+02/02/14 12:43:41 Flushing wallet.dat
+Flushed wallet.dat 74ms
+askfor block 000000011172dbadb917   0
+sending getdata: block 000000011172dbadb917
+received block 000000011172dbadb917
+SetBestChain: new best=000000011172dbadb917  height=28  work=15301050624
+ProcessBlock: ACCEPTED
+02/02/14 12:45:24 Flushing wallet.dat
+Flushed wallet.dat 34ms
+ResendWalletTransactions()
+socket closed
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358707.1hrs
+connect() failed after select(): Connection refused
+ThreadRPCServer method=stop
+DBFlush(false)
+addr.dat refcount=0
+addr.dat checkpoint
+addr.dat closed
+blkindex.dat refcount=0
+blkindex.dat checkpoint
+ThreadSocketHandler exiting
+blkindex.dat closed
+StopNode()
+ThreadMessageHandler exiting
+ThreadOpenConnections exiting
+DBFlush(true)
+addr.dat refcount=0
+addr.dat checkpoint
+addr.dat closed
+Bitcoin exiting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bitcoin version vCLIENT_VERSION_MAJOR.CLIENT_VERSION_MINOR.CLIENT_VERSION_REVISION.CLIENT_VERSION_BUILD-g40fd689-beta ()
+Default data directory /root/.bitcoin
+Loading addresses...
+dbenv.open LogDir=/root/git/cgminer/testnet-box/2/testnet/database ErrorFile=/root/git/cgminer/testnet-box/2/testnet/db.log
+Loaded 1 addresses
+ addresses                28ms
+Loading block index...
+LoadBlockIndex(): hashBestChain=000000011172dbadb917  height=28
+Verifying last 28 blocks at level 1
+ block index               2ms
+Loading wallet...
+nFileVersion = 60202
+ wallet                  157ms
+Done loading
+mapBlockIndex.size() = 29
+nBestHeight = 28
+setKeyPool.size() = 6
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+ThreadRPCServer started
+ipv4 eth2: 10.1.2.55
+addrLocalHost = 10.1.2.55:19010
+addrLocalHost = 0.0.0.0:19010
+DNS seeding disabled
+ThreadIRCSeed exiting
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exiting
+ThreadMessageHandler started
+ThreadOpenConnections started
+trying connection 127.0.0.1:19000 lastseen=-358727.8hrs
+connected 127.0.0.1:19000
+Added time data, samples 2, offset +0 (+0 minutes)
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ResendWalletTransactions()
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358775.1hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358799.1hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket inactivity timeout
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358871.2hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358895.1hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358942.8hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-358967.0hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359038.7hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359087.6hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359089.7hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359110.7hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359135.0hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359194.6hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359206.6hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:19000
+trying connection 127.0.0.1:19000 lastseen=-359231.1hrs
+connected 127.0.0.1:19000
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+DBFlush(false)
+addr.dat refcount=0
+ThreadSocketHandler exiting
+addr.dat checkpoint
+addr.dat closed
+blkindex.dat refcount=0
+blkindex.dat checkpoint
+blkindex.dat closed
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+ThreadOpenConnections exiting
+wallet.dat closed
+StopNode()
+DBFlush(true)
+addr.dat refcount=0
+addr.dat checkpoint
+addr.dat closed
+Bitcoin exiting
+

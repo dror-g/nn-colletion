@@ -1,0 +1,13 @@
+local NeuralNetwork = {
+	fixed = nil,
+	description = "The classic exclusive-or problem.\
+\
+Consists of 2 inputs and one output, where a value of -1 is 'False'\
+and 1 is 'True'.",
+	maps = {
+		{["name"] = "Boolean", ["values"] = {0, 1}, ["labels"] = {"False", "True"}, ["cols"] = {1, 2, 3}}
+	},
+	data = {"Full"}
+}
+
+return NeuralNetwork

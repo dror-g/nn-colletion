@@ -1,0 +1,5 @@
+sound_winmm.lo: sound_winmm.c /usr/include/stdc-predef.h ../../config.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:

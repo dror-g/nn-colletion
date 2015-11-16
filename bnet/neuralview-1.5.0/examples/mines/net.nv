@@ -1,0 +1,15 @@
+local NeuralNetwork = {
+	fixed = nil,
+	description = "This example consists of categorizing a sonar data into\
+rock or mine.\
+\
+Each data entry consists of  60 inputs, representing the sonar data,\
+and a single output, representing the real object (-1 for rock, 1 for\
+mine).",
+	maps = {
+		{["name"] = "Result", ["values"] = {0, 1}, ["labels"] = {"\"\\\"Rocha\\\"\"", "\"\\\"Mina\\\"\""}, ["cols"] = {61}}
+	},
+	data = {"Train", "Test"}
+}
+
+return NeuralNetwork

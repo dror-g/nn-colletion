@@ -1,0 +1,5 @@
+sound_esd.lo: sound_esd.c /usr/include/stdc-predef.h ../../config.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:

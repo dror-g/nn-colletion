@@ -1,0 +1,12 @@
+L  40 / N 1297 aaaAAAaaAAAAAAaaaAaaAaAAAAaAaaAaaaAaaAaAAAaaaAaAAa
+
+Train error: 0.005917, Train bit-fail: 0, Test error: 0.005917, Test bit-fail: 0
+
+Saving network.
+Cleaning up.
+
+real	0m35.906s
+user	0m35.780s
+sys	0m0.064s
+
+2.1M

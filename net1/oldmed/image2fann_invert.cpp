@@ -1,0 +1,331 @@
+/* 
+
+ image2fanndata.cpp 
+
+ Experimental program to convert 
+
+ an image into a 150x150 grayscale 
+
+ image, then spit out a FANN-formatted 
+
+ training file. 
+
+ Insufficient error checking, 
+
+ unsafe use of rm via a system call... 
+
+ Abandon hope, all ye who enter here. 
+
+ DO NOT run this as root. That would be bad. 
+
+ DO NOT run on a machine with unbacked up data. 
+
+ Author: Jason Bowling 
+
+*/ 
+
+#include "unistd.h" 
+
+#include "iostream" 
+
+#include "stdlib.h" 
+
+#include "math.h" 
+
+#include "fstream" 
+
+#include "string" 
+#include "cstring" 
+
+/* 
+
+ example of conversion step 1 
+
+ convert $1 -resize 150x150! temp-conversion.jpg 
+
+*/ 
+
+int file_exists(char filename[]); 
+
+void image2training(char filename[]); 
+
+char ifilename[200]; 
+
+char command_line[300]; 
+
+using namespace std;
+
+int main(int argc, char ** argv) { 
+
+ /* 
+
+ these flags identify a multipart or single frame input image 
+
+ */ 
+
+ int MULTIPART = 0; 
+
+ int SINGLE_FRAME = 0; 
+
+ float training_value; 
+
+ /* 
+
+ make sure we've been passed a filename to work on 
+
+ */ 
+
+ if (argc != 3){ 
+
+ std::cout << "Usage: make_input_data <image_file> <desired training_value>\n\n"; 
+
+ exit(1); 
+
+ } 
+
+ strcpy(ifilename, argv[1]); 
+
+ training_value = atof(argv[2]); 
+ /* 
+
+ Assemble a command line to call ImageMagick's convert utility: 
+
+ convert <input image> -resize 150x150! temp-conversion.jpg 
+
+ This makes a 150x150 jpeg of input_image, whatever it is. 
+
+ Aspect ratio is cheerfully ignored. 
+
+ Output will either be the single frame temp-conversion.jpg 
+
+ or multipart frames temp-conversion.jpg.0, 
+
+temp-conversion.jpg.1.... 
+
+ */ 
+
+ strcat(command_line, "convert "); 
+
+ strcat(command_line, ifilename); 
+
+ strcat(command_line, " -negate -resize 150x150! temp-conversion.jpg"); 
+
+ system(command_line); 
+
+ /* 
+
+ Figure out what we have. 
+
+ Are we a single part image? 
+
+ */ 
+
+ if (file_exists("temp-conversion.jpg")) 
+
+ SINGLE_FRAME = 1; 
+
+ /* 
+
+ are we a multipart image? 
+
+ */ 
+
+ if (file_exists("temp-conversion.jpg.0")) 
+
+ MULTIPART = 1; 
+
+ /* 
+
+ sanity check 
+
+ */ 
+
+ if ((!MULTIPART) && (!SINGLE_FRAME)){ 
+
+ //Convert failed, no output files. 
+
+ std::cout << "The call to convert failed.\n\n"; 
+
+ exit(1); 
+
+ } 
+
+ /* 
+
+ this should never occur 
+
+ */ 
+
+ if (MULTIPART && SINGLE_FRAME){ 
+
+ std::cout << "Serious problem: we have evidence ";
+
+ std::cout << " of both single and multipart image.\n\n";
+
+ exit(1); 
+
+ } 
+
+ /* 
+
+ convert the gray image to a raw 8 bit binary file for easy reading 
+
+ */ 
+
+ if (SINGLE_FRAME){ 
+
+ //convert the gray image to a raw 8 bit binary file for easy reading 
+
+ system("convert temp-conversion.jpg -depth 8 -size 150x150+0 gray:out.bin"); 
+
+ image2training("out.bin"); 
+
+ std::cout << training_value << endl; 
+
+ system("rm -f temp-conversion.jpg"); 
+system("rm -f out.bin"); 
+
+ } 
+
+ /* 
+
+ step through the first 5 output frames if they exist; 
+
+ convert the gray image to a raw 8 bit binary file for easy reading 
+
+ */ 
+
+ if (MULTIPART){ 
+
+ if (file_exists("temp-conversion.jpg.0")){ 
+
+ system("convert temp-conversion.jpg.0 -depth 8 -size 150x150+0 gray:out.bin"); 
+
+ image2training("out.bin"); 
+
+ std::cout << training_value << endl; 
+
+ system("rm -f temp-conversion.jpg.0"); 
+
+ system("rm -f out.bin"); 
+
+ } 
+
+ if (file_exists("temp-conversion.jpg.1")){ 
+
+ system("convert temp-conversion.jpg.1 -depth 8 -size 150x150+0 gray:out.bin"); 
+
+ image2training("out.bin"); 
+
+ std::cout << training_value << endl; 
+
+ system("rm -f temp-conversion.jpg.1"); 
+
+ system("rm -f out.bin"); 
+
+ } 
+
+ if (file_exists("temp-conversion.jpg.2")){ 
+
+ system("convert temp-conversion.jpg.2 -depth 8 -size 150x150+0 gray:out.bin"); 
+
+ image2training("out.bin"); 
+
+ std::cout << training_value << endl; 
+
+ system("rm -f temp-conversion.jpg.2"); 
+
+ system("rm -f out.bin"); 
+
+ } 
+
+ if (file_exists("temp-conversion.jpg.3")){ 
+
+ system("convert temp-conversion.jpg.3 -depth 8 -size 150x150+0 gray:out.bin"); 
+
+ image2training("out.bin"); 
+
+ std::cout << training_value << endl; 
+
+ system("rm -f temp-conversion.jpg.3"); 
+
+ system("rm -f out.bin"); 
+
+ } 
+
+ if (file_exists("temp-conversion.jpg.4")){ 
+
+ system("convert temp-conversion.jpg.4 -depth 8 -size 150x150+0 gray:out.bin"); 
+
+ image2training("out.bin"); 
+
+ std::cout << training_value << endl; 
+
+ system("rm -f temp-conversion.jpg.4"); 
+
+ system("rm -f out.bin"); 
+
+ } 
+
+ } // if MULTIPART 
+
+} 
+
+/* 
+
+ return if file exists, 0 if it doesn't 
+
+*/ 
+
+int file_exists(char filename[]) 
+
+{ 
+ifstream test_name(filename, ios::in | ios::binary); 
+
+ if (test_name){ 
+
+ return 1; 
+
+ test_name.close(); 
+
+ } 
+
+ else 
+
+ return 0; 
+
+} 
+
+void image2training(char filename[]) 
+
+{ 
+
+ short int input; 
+
+ int r; 
+
+ ifstream cil_in(filename, ios::in | ios::binary); 
+
+ if (!cil_in){ 
+
+ std::cout << "Error opening file data. Exiting." << endl; 
+
+ exit(1); 
+
+ } 
+
+ while ( cil_in && !cil_in.eof() ) { 
+
+ r = cil_in.get(); 
+
+ if (r != -1) 
+
+ std::cout << (float) r/1000.00 << " "; 
+
+ } 
+
+ std::cout << endl; 
+
+ cil_in.close(); 
+
+}

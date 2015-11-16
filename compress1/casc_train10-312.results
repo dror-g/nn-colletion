@@ -1,0 +1,11 @@
+Train error: 2.143894, Train bit-fail: 31603, Test error: 2.143894, Test bit-fail: 31603
+
+Saving network.
+Cleaning up.
+
+real	3m7.038s
+user	3m6.815s
+sys	0m0.245s
+
+1.4M
+

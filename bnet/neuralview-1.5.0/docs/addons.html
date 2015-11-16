@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>NeuralView - How to create add-ons</title>
+	</head>
+	
+	<body>
+		<h2>Add-ons</h2>
+		
+		The add-on system allows the aggregation of new functions to
+		the application, in an organized way.
+		
+		<h2>Code structure</h2>
+		
+		<p>
+			To create an add-on, you must implement the methods <code>load(ctrl)</code>
+			and <code>unload</code>.
+		</p>
+		
+		<p>
+			The <code>load(ctrl)</code> is responsible to
+			load the add-on (i.e: add a button to the interface, etc), and receives
+			the application controller (<code>core.MainController</code>).
+		</p>
+		
+		<p>
+			The <code>unload</code> is called only one time, when the main
+			application is closing, and it's intended to release resources
+			(that needs special care, like files) used by the add-on.
+		</p>
+		
+		<p>
+			You also need to create an info table with the following members:
+			<ul>
+				<li>name</li>
+				<li>description</li>
+				<li>authors</li>
+				<li>version</li>
+			</ul>
+		</p>
+		
+		<p>
+			The file <code>addons/Sample.lua</code> implements a very simple
+			add-on, and can be used as base for new add-ons.
+		</p>
+		
+		<h2>Activating the add-on</h2>
+		
+		<p>
+			You can select which add-ons (and their order) that will be loaded
+			when the application starts by editing the list in
+			<code>addons/List.lua</code>.
+		</p>
+	</body>
+</html>

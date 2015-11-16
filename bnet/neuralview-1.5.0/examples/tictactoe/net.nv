@@ -1,0 +1,18 @@
+local NeuralNetwork = {
+	fixed = nil,
+	description = "tic-tac-toe AI\
+\
+Input: the board state (nine cells), where\
+-1 = player 1\
+ 0 = empty\
+ 1 = player 2\
+\
+Output: the 'fitness' of each move (nine cells). Tthe player should\
+mark the cell with the highest score. ",
+	maps = {
+		{["name"] = "Player", ["values"] = {-0.5, 0, 0.5}, ["labels"] = {"Dot", "Empty", "Cross"}, ["cols"] = {1, 2, 3, 4, 5, 6, 7, 8, 9}}
+	},
+	data = {"Full"}
+}
+
+return NeuralNetwork

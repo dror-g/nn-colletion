@@ -1,0 +1,5 @@
+sound_sdl.lo: sound_sdl.c /usr/include/stdc-predef.h ../../config.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:

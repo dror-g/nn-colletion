@@ -1,0 +1,6 @@
+#! /usr/bin/env sh
+
+DIR_NAME=`dirname "$0"`
+DIR_NAME=`cd "$DIR_NAME"; pwd`
+cd "${DIR_NAME}"
+./MainApp.lua

@@ -1,0 +1,10 @@
+in error: 3.704540, Train bit-fail: 37927, Test error: 3.704540, Test bit-fail: 37927
+
+Saving network.
+Cleaning up.
+
+real	3m26.192s
+user	3m25.866s
+sys	0m0.301s
+
+400 775K

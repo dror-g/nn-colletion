@@ -1,0 +1,1409 @@
+# Language po/pt translations for NeuralView package.
+# Copyright (C) 2013 Lucas Hermann Negri
+# This file is distributed under the same license as the NeuralView package.
+# Lucas Hermann Negri <lucashnegri@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-26 11:01-0200\n"
+"PO-Revision-Date: 2013-10-25 15:57-0300\n"
+"Last-Translator: Lucas Hermann Negri <lucashnegri@gmail.com>\n"
+"Language-Team: Language po/pt_BR\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: po/header.h:1
+msgid "Edit the selected data"
+msgstr "Editar o dado selecionado"
+
+#: po/header.h:2
+msgid "Network connection rate"
+msgstr "Taxa de conexão da rede"
+
+#: po/header.h:3
+msgid "Number of epochs trained"
+msgstr "Número de épocas treinadas"
+
+#: po/header.h:4
+msgid "New value"
+msgstr "Novo valor"
+
+#: po/header.h:5
+msgid "Othe_r"
+msgstr "_Outros"
+
+#: po/header.h:6
+msgid "<i>Weight:</i> "
+msgstr "<i>Peso:</i> "
+
+#: po/header.h:7
+msgid "Scale _all"
+msgstr "Ajustar _todos"
+
+#: po/header.h:8
+msgid "Data name"
+msgstr "Nome do dado"
+
+#: po/header.h:9
+msgid "View graph"
+msgstr "Visualizar grafo"
+
+#: po/header.h:10
+msgid "_Apply"
+msgstr "_Apply"
+
+#: po/header.h:11
+msgid "Output type"
+msgstr "Tipo de saída"
+
+#: po/header.h:12
+msgid "Layer where the neuron is located"
+msgstr "Camada onde o neurônio está localizado"
+
+#: po/header.h:13
+msgid "C"
+msgstr "C"
+
+#: po/header.h:14
+msgid "Activation functions"
+msgstr "Funções de ativação"
+
+#: po/header.h:15
+msgid "Training parameters"
+msgstr "Parâmetros de treinamento"
+
+#: po/header.h:16
+msgid "Batch"
+msgstr "Lote"
+
+#: po/header.h:17
+msgid "Momentum term"
+msgstr "Momento"
+
+#: po/header.h:18
+msgid "<b>Description:</b>"
+msgstr "<b>Descrição:</b>"
+
+#: po/header.h:19
+msgid "View snapshots of the network weights"
+msgstr "Visualizar registros dos pesos da rede"
+
+#: po/header.h:20
+msgid "The desired mean squared error / bit fail"
+msgstr "O erro quadrático médio / bits falhados desejado"
+
+#: po/header.h:21
+msgid "Couldn't save the project"
+msgstr "Não foi possível salvar o projeto"
+
+#: po/header.h:22
+msgid "Value"
+msgstr "Valor"
+
+#: po/header.h:23
+msgid "_Max epochs"
+msgstr "_Limite de épocas"
+
+#: po/header.h:24
+msgid "There aren't any weight snapshot to show"
+msgstr "Não há nenhum registro de pesos para ser visualizado"
+
+#: po/header.h:25
+msgid "Map associations"
+msgstr "Associações de mapas"
+
+#: po/header.h:26
+msgid "_Quit"
+msgstr "_Sair"
+
+#: po/header.h:27
+msgid "Nguyen-Widrow"
+msgstr "Nguyen-Widrow"
+
+#: po/header.h:28
+msgid "Test network"
+msgstr "Testar a rede "
+
+#: po/header.h:29
+msgid "Sparse"
+msgstr "Esparso"
+
+#: po/header.h:30
+msgid "Generate report"
+msgstr "Geral relatório"
+
+#: po/header.h:31
+msgid "_Maps"
+msgstr "_Mapas"
+
+#: po/header.h:32
+msgid "Data editor"
+msgstr "Editor de dados"
+
+#: po/header.h:33
+msgid "Train the network"
+msgstr "Treinar a rede"
+
+#: po/header.h:34
+msgid "HTML page"
+msgstr "Página HTML"
+
+#: po/header.h:35
+msgid "Add-on name"
+msgstr "Nome do complemento"
+
+#: po/header.h:36
+msgid "_Project"
+msgstr "_Projeto"
+
+#: po/header.h:37
+msgid "Map name"
+msgstr "Nome do mapa"
+
+#: po/header.h:38
+msgid "Number of neurons per layer"
+msgstr "Número de neurônios por camada"
+
+#: po/header.h:39
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: po/header.h:40
+msgid "PNG image"
+msgstr "Imagem PNG"
+
+#: po/header.h:41
+msgid "Layer to set the activation function"
+msgstr "Camada para configurar a função de ativação"
+
+#: po/header.h:42
+msgid "View the graph of the network"
+msgstr "Visualizar o grafo da rede"
+
+#: po/header.h:43
+msgid "View _Graph"
+msgstr "Visualizar _Grafo"
+
+#: po/header.h:44
+msgid "Set the activation function for an entire layer"
+msgstr "Configurar a função de ativação para uma camada inteira"
+
+#: po/header.h:45
+msgid "Neurons per layer"
+msgstr "Neurônios por camada"
+
+#: po/header.h:46
+msgid "_Data Maps"
+msgstr "Mapas de _Dados"
+
+#: po/header.h:47
+msgid "_Exporter"
+msgstr "_Exportador"
+
+#: po/header.h:48
+msgid "Run a_ll"
+msgstr "Executar _todos"
+
+#: po/header.h:49
+msgid "Save graph"
+msgstr "Salvar grafo"
+
+#: po/header.h:50
+msgid "Test the network using an existing data"
+msgstr "Testar a rede utilizando um dado existente"
+
+#: po/header.h:51
+msgid "_Weights"
+msgstr "_Pesos"
+
+#: po/header.h:52
+msgid "_Execution"
+msgstr "Execução"
+
+#: po/header.h:53
+msgid "Decrease factor of the connection weights"
+msgstr "Fator de decremento dos pesos das conexões"
+
+#: po/header.h:54
+msgid "Per _layer"
+msgstr "Por _camada"
+
+#: po/header.h:55
+msgid "Learning momentum"
+msgstr "Momento da aprendizagem"
+
+#: po/header.h:56
+msgid "No map"
+msgstr "Sem mapa"
+
+#: po/header.h:57
+msgid ""
+"Sample description.\n"
+"May have multiple lines."
+msgstr ""
+"Descrição de exemplo.\n"
+"Pode ter múltiplas linhas."
+
+#: po/header.h:58
+msgid "_Topology"
+msgstr "_Topologia"
+
+#: po/header.h:59
+msgid "Test"
+msgstr "Testar"
+
+#: po/header.h:60
+msgid "_Run"
+msgstr "_Executar"
+
+#: po/header.h:61
+msgid ".lua"
+msgstr ".lua"
+
+#: po/header.h:62
+msgid "Epochs between reports"
+msgstr "Épocas entre cada relatório"
+
+#: po/header.h:63
+msgid "Shu_ffle"
+msgstr "_Embaralhar"
+
+#: po/header.h:64
+msgid ""
+"The number of input/output neurons in the data doesn't matches the network."
+msgstr "Os números de neurônios de entrada/saída no dado diferem dos da rede."
+
+#: po/header.h:65
+msgid "Test result"
+msgstr "Resultado do teste"
+
+#: po/header.h:66
+msgid "SARPROP"
+msgstr "SARPROP"
+
+#: po/header.h:67
+msgid "Gaussian symmetric"
+msgstr "Gaussiana simétrica"
+
+#: po/header.h:68
+msgid "Add a new row"
+msgstr "Adicionar uma nova linha"
+
+#: po/header.h:69
+msgid "Training"
+msgstr "Treinamento"
+
+#: po/header.h:70
+msgid "Select the spacing between layers"
+msgstr "Seleciona o espaçamento entre camadas"
+
+#: po/header.h:71
+msgid "Test the network"
+msgstr "Testar a rede"
+
+#: po/header.h:72
+msgid "Use the mean squared error as stop condition"
+msgstr "Utilizar o erro quadrático médio como critério de parada"
+
+#: po/header.h:73
+msgid "S_pacing (%)"
+msgstr "_Espaçamento (%)"
+
+#: po/header.h:74
+msgid "_Information"
+msgstr "_Informações"
+
+#: po/header.h:75
+msgid "Lucas Hermann Negri"
+msgstr "Lucas Hermann Negri"
+
+#: po/header.h:76
+msgid "Delta max"
+msgstr "Delta máximo"
+
+#: po/header.h:77
+msgid "Connection rate"
+msgstr "Taxa de conexão"
+
+#: po/header.h:78
+msgid "Type"
+msgstr "Tipo"
+
+#: po/header.h:79
+msgid "Create a copy of the selected data"
+msgstr "Criar uma cópia do dado selecionado"
+
+#: po/header.h:80
+msgid "Linear piece"
+msgstr "Segmento linear"
+
+#: po/header.h:81
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: po/header.h:82
+msgid "Total neurons"
+msgstr "Total de neurônios"
+
+#: po/header.h:83
+msgid "Connection rate of the network"
+msgstr "Taxa de conexão da rede"
+
+#: po/header.h:84
+msgid "Remove the selected data"
+msgstr "Remover o dado selecionado"
+
+#: po/header.h:85
+msgid "<i>To:</i> "
+msgstr "<i>Para:</i> "
+
+#: po/header.h:86
+msgid "Sigmoid"
+msgstr "Sigmóide"
+
+#: po/header.h:87
+#, c-format
+msgid "%.4f to %.4f"
+msgstr "%.4f até %.4f"
+
+#: po/header.h:88
+msgid "Gaussian"
+msgstr "Gaussiana"
+
+#: po/header.h:89
+msgid "Training status"
+msgstr "Estado do treinamento"
+
+#: po/header.h:90
+msgid "Threshold symmetric"
+msgstr "Limiar simétrica"
+
+#: po/header.h:91
+msgid "_Log epochs"
+msgstr "_Épocas entre registros"
+
+#: po/header.h:92
+msgid "_Add-ons"
+msgstr "_Complementos"
+
+#: po/header.h:93
+msgid "Sigmoid stepwise"
+msgstr "Sigmóide passo-a-passo"
+
+#: po/header.h:94
+msgid "Configure the activation functions"
+msgstr "Configurar as funções de ativação"
+
+#: po/header.h:95
+msgid "Couldn't render the plotting"
+msgstr "Não foi possível renderizar o gráfico"
+
+#: po/header.h:96
+msgid "Add a new data"
+msgstr "Adicionar um novo dado"
+
+#: po/header.h:97
+msgid "Available maps"
+msgstr "Mapas disponíveis"
+
+#: po/header.h:98
+msgid "From"
+msgstr "De"
+
+#: po/header.h:99
+msgid "Apply the changes"
+msgstr "Aplicar as mudanças"
+
+#: po/header.h:100
+msgid "_About"
+msgstr "_Sobre"
+
+#: po/header.h:101
+msgid "Delta min"
+msgstr "Delta mínimo"
+
+#: po/header.h:102
+msgid "_Neurons"
+msgstr "_Neurônios"
+
+#: po/header.h:103
+msgid "Steepness"
+msgstr "Inclinação"
+
+#: po/header.h:104
+msgid "_Map"
+msgstr "_Mapa"
+
+#: po/header.h:105
+msgid "Add-on authors"
+msgstr "Autores do complemento "
+
+#: po/header.h:106
+msgid "Network type"
+msgstr "Tipo da rede"
+
+#: po/header.h:107
+msgid "Sample"
+msgstr "Exemplo"
+
+#: po/header.h:108
+msgid "Neuron to set the activation function"
+msgstr "Neurônio para configurar a função de ativação"
+
+#: po/header.h:109
+msgid "Total connections"
+msgstr "Total de conexões"
+
+#: po/header.h:110
+msgid ""
+"Exports the neural network and\n"
+"generates a simple program to use it."
+msgstr ""
+"Exporta a rede neural e gera um\n"
+"programa simples para utilizá-lo."
+
+#: po/header.h:111
+msgid "None"
+msgstr "Nenhum"
+
+#: po/header.h:112
+msgid "Close the project"
+msgstr "Fechar o projeto"
+
+#: po/header.h:113
+msgid "Upper limit"
+msgstr "Limite superior"
+
+#: po/header.h:114
+msgid "Input#"
+msgstr "Entrada#"
+
+#: po/header.h:115
+msgid "Add a new interval point"
+msgstr "Adicionar um novo ponto de intervalo"
+
+#: po/header.h:116
+msgid "_Description"
+msgstr "_Descrição"
+
+#: po/header.h:117
+msgid "View the loaded add-ons"
+msgstr "Visualizar complementos carregados"
+
+#: po/header.h:118
+msgid "<b>Author(s):</b>"
+msgstr "<b>Autor(es):</b>"
+
+#: po/header.h:119
+msgid "_Layer"
+msgstr "_Camada"
+
+#: po/header.h:120
+msgid "Couldn't save the project."
+msgstr "Não foi possível salvar o projeto."
+
+#: po/header.h:121
+msgid "Step error shift"
+msgstr "Deslocamento do passo de erro"
+
+#: po/header.h:122
+msgid "Factor that determines how aggressive the training should be"
+msgstr "Fator que determina a agressividade do treinamento"
+
+#: po/header.h:123
+msgid "Increase/decrease factor of the step-size"
+msgstr "Taxa de variação do tamanho do passo"
+
+#: po/header.h:124
+msgid "Save project"
+msgstr "Salvar o projeto"
+
+#: po/header.h:125
+msgid "Reporter"
+msgstr "Relator"
+
+#: po/header.h:126
+msgid "Initialize _Weights"
+msgstr "Inicializar _Pesos"
+
+#: po/header.h:127
+msgid "Run the network for general inputs"
+msgstr "Executar a rede para entradas gerais"
+
+#: po/header.h:128
+msgid "Layer"
+msgstr "Camada"
+
+#: po/header.h:129
+msgid "Total number of connections in the network"
+msgstr "Total de conexões da rede"
+
+#: po/header.h:130
+msgid "The current project is not saved. Close it anyway?"
+msgstr "O projeto atual não está salvo. Fechar assim mesmo?"
+
+#: po/header.h:131
+msgid "Invalid network type "
+msgstr "Tipo de rede inválido"
+
+#: po/header.h:132
+msgid "Increase factor of the training step-size"
+msgstr "Fator de incremento do tamanho do passo do treinamento"
+
+#: po/header.h:133
+msgid "Map"
+msgstr "Mapa"
+
+#: po/header.h:134
+msgid "Add-on description"
+msgstr "Descrição do complemento"
+
+#: po/header.h:135
+msgid "Te_st"
+msgstr "Te_ste"
+
+#: po/header.h:136
+msgid "Time elapsed (s)"
+msgstr "Tempo decorrido (s)"
+
+#: po/header.h:137
+msgid "Export project"
+msgstr "Tipo de exportação"
+
+#: po/header.h:138
+msgid "_Remove"
+msgstr "_Remover"
+
+#: po/header.h:139
+msgid "Bit fail"
+msgstr "Erro de bit"
+
+#: po/header.h:140
+msgid "RPROP"
+msgstr "RPROP"
+
+#: po/header.h:141
+msgid "_Import"
+msgstr "_Importar"
+
+#: po/header.h:142
+msgid "SVG image"
+msgstr "Imagem SVG"
+
+#: po/header.h:143
+msgid "New data"
+msgstr "Novo dado"
+
+#: po/header.h:144
+msgid "Data manager"
+msgstr "Gerenciador de dados"
+
+#: po/header.h:145
+msgid "Create network"
+msgstr "Criar rede"
+
+#: po/header.h:146
+msgid "Range"
+msgstr "Intervalo"
+
+#: po/header.h:147
+msgid "Import a data from a file"
+msgstr "Importar um dado de um arquivo"
+
+#: po/header.h:148
+msgid "_Parameters"
+msgstr "Parâmetros"
+
+#: po/header.h:149
+msgid "Network topology"
+msgstr "Topologia da rede"
+
+#: po/header.h:150
+msgid "Add-ons"
+msgstr "Complementos"
+
+#: po/header.h:151
+msgid "To"
+msgstr "Para"
+
+#: po/header.h:152
+msgid "Confirmation"
+msgstr "Confirmação"
+
+#: po/header.h:153
+msgid "Neuron"
+msgstr "Neurônio"
+
+#: po/header.h:154
+msgid "Unloading sample"
+msgstr "Descarregando exemplo"
+
+#: po/header.h:155
+msgid "Bias per layer"
+msgstr "Bias por camada"
+
+#: po/header.h:156
+#, c-format
+msgid "Permanently remove <b>%s</b>?"
+msgstr "Remover <b>%s</b> permanentemente?"
+
+#: po/header.h:157
+msgid "_Bit fail limit"
+msgstr "Limite de erro de _bits"
+
+#: po/header.h:158
+msgid "Open an existing project"
+msgstr "Abrir um projeto existente"
+
+#: po/header.h:159
+msgid "Runs the network for all rows"
+msgstr "Executar a rede para todas as linhas"
+
+#: po/header.h:160
+msgid "Sample tooltip"
+msgstr "Dica de ferramenta (exemplo)"
+
+#: po/header.h:161
+msgid "_Rate %"
+msgstr "_Taxa %"
+
+#: po/header.h:162
+msgid "Loading sample"
+msgstr "Carregando exemplo"
+
+#: po/header.h:163
+msgid "Stop condition"
+msgstr "Critério de parada"
+
+#: po/header.h:164
+msgid "Save the project"
+msgstr "Salvar o projeto"
+
+#: po/header.h:165
+msgid "Incremental"
+msgstr "Incremental"
+
+#: po/header.h:166
+msgid "Sample addon"
+msgstr "Exemplo de complemento"
+
+#: po/header.h:167
+msgid "Generate reports about the current project"
+msgstr "Gerar relatórios sobre o projeto atual"
+
+#: po/header.h:168
+msgid "<b>Add-on:</b>"
+msgstr "<b>Complemento:</b>"
+
+#: po/header.h:169
+msgid "Remove all hidden layers and added neurons"
+msgstr "Remover todas as camadas escondidas e neurônios adicionados"
+
+#: po/header.h:170
+msgid "Linear piece symmetric"
+msgstr "Segmento linear simétrica"
+
+#: po/header.h:171
+msgid "Decrease factor"
+msgstr "Fator de decremento"
+
+#: po/header.h:172
+msgid "_Fixed point"
+msgstr "Ponto _fixo"
+
+#: po/header.h:173
+msgid "HTML"
+msgstr "HTML"
+
+#: po/header.h:174
+msgid "Epoch"
+msgstr "Época"
+
+#: po/header.h:175
+msgid "Initialize the connection weights of the network"
+msgstr "Inicializar os pesos das conexões da rede"
+
+#: po/header.h:176
+msgid "Use the bit fail as stop condition"
+msgstr "Utilizar os bits falhados como critério de parada"
+
+#: po/header.h:177
+msgid "_Edit"
+msgstr "_Editar"
+
+#: po/header.h:178
+msgid "Cos symmetric"
+msgstr "Cosseno simétrica"
+
+#: po/header.h:179
+msgid "Bit fail limit"
+msgstr "Limite de erro debits"
+
+#: po/header.h:180
+msgid "_Close"
+msgstr "_Fechar"
+
+#: po/header.h:181
+msgid "Remove the selected map"
+msgstr "Remover o mapa selecionado"
+
+#: po/header.h:182
+msgid "Stop function"
+msgstr "Stop function"
+
+#: po/header.h:183
+msgid ""
+"Generates reports about the\n"
+"current project."
+msgstr "Gera relatórios sobre o projeto atual."
+
+#: po/header.h:184
+msgid "Stops the training"
+msgstr "Para o treino"
+
+#: po/header.h:185
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: po/header.h:186
+msgid "Save the network for external use"
+msgstr "Salvar a rede para uso externo"
+
+#: po/header.h:187
+msgid "Edit the network topology"
+msgstr "Editar a topologia da rede"
+
+#: po/header.h:188
+#, c-format
+msgid "Couldn't export to %s"
+msgstr "Não foi possível exportar para %s"
+
+#: po/header.h:189
+msgid "Selected training algorithm"
+msgstr "Algoritmo de treinamento selecionado"
+
+#: po/header.h:190
+msgid "Weight decay shift"
+msgstr "Deslocamento do decaimento dos pesos"
+
+#: po/header.h:191
+msgid "SARPROP weight decay shift"
+msgstr "Deslocamento do decaimento dos pesos do algoritmo SARPROP"
+
+#: po/header.h:192
+msgid ", bias"
+msgstr ", bias"
+
+#: po/header.h:193
+msgid "Max"
+msgstr "Máximo"
+
+#: po/header.h:194
+msgid "Configure the training parameters"
+msgstr "Configurar os parâmetros de treinamento"
+
+#: po/header.h:195
+msgid "Edit the selected map"
+msgstr "Editar o mapa selecionado"
+
+#: po/header.h:196
+msgid "No code"
+msgstr "Sem código"
+
+#: po/header.h:197
+msgid "Lua"
+msgstr "Lua"
+
+#: po/header.h:198
+msgid "Scale the selected data between an interval"
+msgstr "Ajusta o dado selecionado entre um intervalo"
+
+#: po/header.h:199
+msgid "Export _type"
+msgstr "_Tipo de exportação"
+
+#: po/header.h:200
+msgid "Exporter"
+msgstr "Exportador"
+
+#: po/header.h:201
+msgid "Per _neuron"
+msgstr "Por _neurônio"
+
+#: po/header.h:202
+msgid ""
+"<b>Connection details:</b>\n"
+"\n"
+msgstr ""
+"<b>Detalhes das conexões:</b>\n"
+"\n"
+
+#: po/header.h:203
+msgid "Output"
+msgstr "Saída"
+
+#: po/header.h:204
+#, c-format
+msgid " (layer: %d, pos: %d%s)"
+msgstr " (camada: %d, pos: %d%s)"
+
+#: po/header.h:205
+msgid "Source layer to show the connections"
+msgstr "Camada de origem para mostrar as conexões"
+
+#: po/header.h:206
+msgid "Weight"
+msgstr "Peso"
+
+#: po/header.h:207
+msgid "Min"
+msgstr "Mínimo"
+
+#: po/header.h:208
+msgid "_Train"
+msgstr "_Treinamento"
+
+#: po/header.h:209
+msgid "Set the connection weights to random values between a range"
+msgstr ""
+"Configura os pesos das conexões para valores aleatórios entre o intervalo "
+"determinado"
+
+#: po/header.h:210
+msgid "Classification"
+msgstr "Classificação"
+
+#: po/header.h:211
+msgid "to"
+msgstr "para"
+
+#: po/header.h:212
+msgid "Initial value of the step-size"
+msgstr "Valor inicial para o tamanho do passo"
+
+#: po/header.h:213
+msgid "Initialize weights"
+msgstr "Inicializar pesos"
+
+#: po/header.h:214
+msgid "Mu"
+msgstr "Mu"
+
+#: po/header.h:215
+msgid "View weights"
+msgstr "Visualizar pesos"
+
+#: po/header.h:216
+msgid "Information"
+msgstr "Informação"
+
+#: po/header.h:217
+msgid "Standard"
+msgstr "Padrão"
+
+#: po/header.h:218
+msgid "Weight snapshots"
+msgstr "Registro de pesos"
+
+#: po/header.h:219
+msgid "Scale _output"
+msgstr "Ajustar _saída"
+
+#: po/header.h:220
+msgid "Scale _input"
+msgstr "Ajustar _entrada"
+
+#: po/header.h:221
+msgid "Mean squared error"
+msgstr "Erro quadrático médio"
+
+#: po/header.h:222
+msgid "Learning rate"
+msgstr "Taxa de aprendizagem"
+
+#: po/header.h:223
+msgid "If the network will be exported using fixed point numbers"
+msgstr "Se a rede vai ser exportada utilizando números de ponto fixo"
+
+#: po/header.h:224
+msgid "Scale data"
+msgstr "Ajustar dado"
+
+#: po/header.h:225
+msgid "Function"
+msgstr "Função"
+
+#: po/header.h:226
+msgid "_Training"
+msgstr "_Treinamento"
+
+#: po/header.h:227
+msgid "Starts the training"
+msgstr "Inicia o treinamento"
+
+#: po/header.h:228
+msgid "Show _bias"
+msgstr "Mostrar _bias"
+
+#: po/header.h:229
+msgid "_Start"
+msgstr "_Iniciar"
+
+#: po/header.h:230
+msgid "Decrease factor of the step-size"
+msgstr "Fator de decremento do tamanho do passo"
+
+#: po/header.h:231
+msgid "View the connection weights of the network"
+msgstr "VIsualizar os pesos das conexões da rede"
+
+#: po/header.h:232
+msgid "_Type"
+msgstr "_Tipo"
+
+#: po/header.h:233
+msgid "The interval between logs (0 disables the logs)"
+msgstr "O intervalo entre registros (0 desabilita os registros)"
+
+#: po/header.h:234
+msgid "Remove a hidden layer"
+msgstr "Remover uma camada escondida"
+
+#: po/header.h:235
+msgid "Training _data"
+msgstr "_Dado de treinamento"
+
+#: po/header.h:236
+msgid "Quit from the application"
+msgstr "Sair da aplicação"
+
+#: po/header.h:237
+msgid "The acceptable bit error"
+msgstr "O erro de bit aceitável (mais do que isto o bit é considerado falhado)"
+
+#: po/header.h:238
+msgid "Hidden"
+msgstr "Escondida"
+
+#: po/header.h:239
+msgid "Shortcut"
+msgstr "Atalho"
+
+#: po/header.h:240
+msgid "Open project"
+msgstr "Abrir projeto"
+
+#: po/header.h:241
+msgid "Save the network graph"
+msgstr "Salvar o grafo da rede"
+
+#: po/header.h:242
+msgid "Desired _error"
+msgstr "_Erro desejado"
+
+#: po/header.h:243
+msgid "Training data to be used"
+msgstr "Dado de treino a ser utilizado"
+
+#: po/header.h:244
+msgid "The maximum number of epochs that the training can run"
+msgstr "O número máximo de épocas que o treinamento pode ser executado"
+
+#: po/header.h:245
+msgid "_New"
+msgstr "_Novo"
+
+#: po/header.h:246
+msgid "Parameters"
+msgstr "Parâmetros"
+
+#: po/header.h:247
+msgid "Input"
+msgstr "Entrada"
+
+#: po/header.h:248
+msgid "Bit limit"
+msgstr "Limite de bits"
+
+#: po/header.h:249
+msgid "0"
+msgstr "0"
+
+#: po/header.h:250
+msgid ".c"
+msgstr ".c"
+
+#: po/header.h:251
+msgid "Ru_n"
+msgstr "_Executar"
+
+#: po/header.h:252
+msgid "_Scale"
+msgstr "_Ajustar"
+
+#: po/header.h:253
+msgid "There aren't any data to show"
+msgstr "Não há dados para serem visualizados"
+
+#: po/header.h:254
+msgid "Toggles the bias neuron visualization"
+msgstr "Habilita/desabilita a visualização dos neurônios bias"
+
+#: po/header.h:255
+msgid "Run a copy of the selected data"
+msgstr "Executar a rede com uma cópia do dado selecionado"
+
+#: po/header.h:256
+msgid "Threshold"
+msgstr "Limiar"
+
+#: po/header.h:257
+msgid "Training history"
+msgstr "Histórico do treinamento"
+
+#: po/header.h:258
+msgid "_Save"
+msgstr "_Salvar"
+
+#: po/header.h:259
+msgid "New map"
+msgstr "Novo mapa"
+
+#: po/header.h:260
+msgid "Create a new project"
+msgstr "Criar um novo projeto"
+
+#: po/header.h:261
+msgid "Neural Network Simulator"
+msgstr "Simulador de Redes Neurais"
+
+#: po/header.h:262
+msgid "View the plotting of the bit fail changes"
+msgstr "Visualizar o gráfico das alterações dos bits falhados"
+
+#: po/header.h:263
+msgid "Shuffle the rows of selected data"
+msgstr "Embaralhar as linhas do dado selecionado"
+
+#: po/header.h:264
+msgid "Sample clicked!"
+msgstr "Exemplo clicado!"
+
+#: po/header.h:265
+msgid "_MSE"
+msgstr "_MSE"
+
+#: po/header.h:266
+msgid "Quickprop"
+msgstr "Quickprop"
+
+#: po/header.h:267
+msgid "Linear"
+msgstr "Linear"
+
+#: po/header.h:268
+msgid "Elapsed time"
+msgstr "Tempo decorrido"
+
+#: po/header.h:269
+msgid "Elliot symmetric"
+msgstr "Elliot simétrica"
+
+#: po/header.h:270
+msgid "Epochs"
+msgstr "Épocas"
+
+#: po/header.h:271
+msgid "Sigmoid symmetric"
+msgstr "Sigmóide simétrica"
+
+#: po/header.h:272
+msgid "Output#"
+msgstr "Saída#"
+
+#: po/header.h:273
+msgid "Delta zero"
+msgstr "Delta zero"
+
+#: po/header.h:274
+msgid "Randomize"
+msgstr "Aleatorizar"
+
+#: po/header.h:275
+msgid "Activation function"
+msgstr "Função de ativação"
+
+#: po/header.h:276
+msgid "Remove the selected interval points"
+msgstr "Remover os pontos selecionados"
+
+#: po/header.h:277
+msgid "_Bit"
+msgstr "_Bit"
+
+#: po/header.h:278
+msgid "_Zoom (%)"
+msgstr "_Aproximação (%)"
+
+#: po/header.h:279
+msgid "Manage the data maps"
+msgstr "Gerencia os mapas de dados"
+
+#: po/header.h:280
+msgid "Test data to be used"
+msgstr "Dado de teste a ser utilizado"
+
+#: po/header.h:281
+msgid "Test _data"
+msgstr "_Dado de teste"
+
+#: po/header.h:282
+msgid "_View Add-ons"
+msgstr "Visualizar Complementos"
+
+#: po/header.h:283
+msgid "Set the activation function for a single neuron"
+msgstr "Configura a função de ativação para um neurônio"
+
+#: po/header.h:284
+msgid "Remove the selected rows"
+msgstr "Remove as linhas selecionadas"
+
+#: po/header.h:285
+msgid "SARPROP temperature"
+msgstr "Temperatura do algoritmo SARPROP"
+
+#: po/header.h:286
+msgid "Sin symmetric"
+msgstr "Seno simétrica"
+
+#: po/header.h:287
+msgid "(Copy)"
+msgstr "(Cópia)"
+
+#: po/header.h:288
+msgid "R_un"
+msgstr "_Executar"
+
+#: po/header.h:289
+msgid "Couldn't load the project."
+msgstr "Não foi possível carregar o projeto."
+
+#: po/header.h:290
+msgid "<i>From:</i> "
+msgstr "<i>De:</i> "
+
+#: po/header.h:291
+msgid "Increase factor"
+msgstr "Fator de incremento"
+
+#: po/header.h:292
+msgid "Minimum value of the step-size"
+msgstr "Valor mínimo do tamanho do passo"
+
+#: po/header.h:293
+msgid "Edit network"
+msgstr "Editar rede"
+
+#: po/header.h:294
+msgid "Map manager"
+msgstr "Gerenciador de mapas"
+
+#: po/header.h:295
+msgid "Desired error"
+msgstr "Erro desejado"
+
+#: po/header.h:296
+msgid "Add a new map"
+msgstr "Adicionar um novo mapa"
+
+#: po/header.h:297
+msgid "SARPROP step error threshold factor"
+msgstr "Fator do limiar do passo de erro do algoritmo SARPROP"
+
+#: po/header.h:298
+msgid "Map editor"
+msgstr "Editor de mapas"
+
+#: po/header.h:299
+#, c-format
+msgid "%s v%s"
+msgstr "%s v%s"
+
+#: po/header.h:300
+msgid "View the plotting of the mean squared error changes"
+msgstr "Visualizar o gráfico das alterações do erro quadrático médio"
+
+#: po/header.h:301
+msgid "View informations about the application"
+msgstr "Visualizar informações sobre a aplicação"
+
+#: po/header.h:302
+msgid "Step error threshold factor"
+msgstr "Fator do limiar do passo de erro"
+
+#: po/header.h:303
+msgid "Network connection type"
+msgstr "Tipo de conexão da rede"
+
+#: po/header.h:304
+msgid "Decay"
+msgstr "Declínio"
+
+#: po/header.h:305
+msgid "Network runner"
+msgstr "Execução da rede"
+
+#: po/header.h:306
+msgid "Snapshot"
+msgstr "Registro"
+
+#: po/header.h:307
+msgid "_Add"
+msgstr "_Adicionar"
+
+#: po/header.h:308
+msgid "Maximum value of the step-size"
+msgstr "Valor máximo do tamanho do passo"
+
+#: po/header.h:309
+msgid "Open training/test data"
+msgstr "Abrir dado de treinamento/teste"
+
+#: po/header.h:310
+msgid "SARPROP step error shift"
+msgstr "Deslocamento do passo de erro do algoritmo SARPROP"
+
+#: po/header.h:311
+msgid "Invalid data"
+msgstr "Dado inválido"
+
+#: po/header.h:312
+msgid "Max epochs"
+msgstr "Limite de épocas"
+
+#: po/header.h:313
+msgid "Data _Manager"
+msgstr "_Gerenciador de Dados"
+
+#: po/header.h:314
+msgid "Add a hidden layer"
+msgstr "Adicionar uma camada escondida"
+
+#: po/header.h:315
+msgid "Set the connection weights according to the Nguyen-Widrow algorithm"
+msgstr ""
+"Configura os pesos das conexões de acordo com o algoritmo de Nguyen-Widrow"
+
+#: po/header.h:316
+msgid "Close the dialog"
+msgstr "Fechar o diálogo"
+
+#: po/header.h:317
+msgid "Activation _Functions"
+msgstr "_Funções de Ativação"
+
+#: po/header.h:318
+msgid "Manage the training / test data"
+msgstr "Gerenciar os dados de treino / teste"
+
+#: po/header.h:319
+msgid "Mean squared error history"
+msgstr "Histórico do erro quadrático médio"
+
+#: po/header.h:320
+msgid "Cos"
+msgstr "Cosseno"
+
+#: po/header.h:321
+msgid "View Weig_hts"
+msgstr "Visualizar _Pesos"
+
+#: po/header.h:322
+msgid "Select the zoom level"
+msgstr "Selecionar o nível de aproximação"
+
+#: po/header.h:323
+msgid "Neurons"
+msgstr "Neurônios"
+
+#: po/header.h:324
+msgid "_Open"
+msgstr "_Abrir"
+
+#: po/header.h:325
+msgid "Runs the network for the selected rows"
+msgstr "Executa a rede para as linhas selecionadas"
+
+#: po/header.h:326
+msgid "View add-ons"
+msgstr "Visualizar complementos"
+
+#: po/header.h:327
+msgid "Res_et"
+msgstr "_Reiniciar"
+
+#: po/header.h:328
+msgid "Elliot"
+msgstr "Elliot"
+
+#: po/header.h:329
+msgid "Sin"
+msgstr "Seno"
+
+#: po/header.h:330
+msgid "Toggle the map visualization"
+msgstr "Habilitar/desabilitar a visualização por mapas"
+
+#: po/header.h:331
+msgid "Invalid project"
+msgstr "Projeto inválido"
+
+#: po/header.h:332
+msgid "Total number of neurons in the network"
+msgstr "Número total de neurônios na rede"
+
+#: po/header.h:333
+msgid "Training algorithm"
+msgstr "Algoritmo de treinamento"
+
+#: po/header.h:334
+msgid "_Reporter"
+msgstr "_Relator"
+
+#: po/header.h:335
+msgid "_Layers"
+msgstr "_Camadas"
+
+#: po/header.h:336
+msgid "Imported data"
+msgstr "Dado importado"
+
+#: po/header.h:337
+msgid "Number of bias neurons per layer"
+msgstr "Número de neurônios bias por camada "
+
+#: po/header.h:338
+msgid "Algorithm"
+msgstr "Algoritmo"
+
+#: po/header.h:339
+msgid "Activation function steepness"
+msgstr "Inclinação da função de ativação"
+
+#, fuzzy
+#~ msgid "Time elapsed (s) = "
+#~ msgstr "Tempo decorrido (s)"
+
+#, fuzzy
+#~ msgid "Mean squared error = "
+#~ msgstr "Erro quadrático médio"
+
+#, fuzzy
+#~ msgid "Bit fail = "
+#~ msgstr "Erro de bit"

@@ -1,0 +1,70 @@
+****************************************************************************************************************
+//Simple reproducer
+
+4
+9
+5
+6
+1
+10
+0
+
+register--
+while(reg){
+read genome
+write to output
+pointer++
+}
+reset
+
+****************************************************************************************************************
+//random direction reproducer
+4
+9
+5
+6
+1
+10
+26
+8
+0
+
+register--
+while(reg){
+read genome
+write to output
+pointer++
+}
+rnd()
+look to register
+reset
+
+****************************************************************************************************************
+//energy 2 living
+24
+4
+9
+24
+14
+5
+6
+1
+10
+26
+8
+15
+0
+
+convert energy2 //we need some energy to start
+register--
+while(reg){
+convert energy2 //convert at least as much energy as we need
+remove bad
+read genome
+write to output
+pointer++
+}
+rnd()
+look to register
+share //give some energy to our child
+reset

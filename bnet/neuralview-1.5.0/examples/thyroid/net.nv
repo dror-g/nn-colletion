@@ -1,0 +1,15 @@
+local NeuralNetwork = {
+	fixed = nil,
+	description = "Based on patient data, this network decides if the patient's thyroid\
+has overfunction, normal function or underfunction.\
+\
+There are 21 input values, representing the patient data, and\
+3 output values, representing the 'confidence' rate of being under\
+overfunction, normal function or underfunction, respectively.",
+	maps = {
+		
+	},
+	data = {"Train", "Test"}
+}
+
+return NeuralNetwork

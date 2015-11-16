@@ -1,0 +1,1388 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-26 11:01-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: po/header.h:1
+msgid "Edit the selected data"
+msgstr ""
+
+#: po/header.h:2
+msgid "Network connection rate"
+msgstr ""
+
+#: po/header.h:3
+msgid "Number of epochs trained"
+msgstr ""
+
+#: po/header.h:4
+msgid "New value"
+msgstr ""
+
+#: po/header.h:5
+msgid "Othe_r"
+msgstr ""
+
+#: po/header.h:6
+msgid "<i>Weight:</i> "
+msgstr ""
+
+#: po/header.h:7
+msgid "Scale _all"
+msgstr ""
+
+#: po/header.h:8
+msgid "Data name"
+msgstr ""
+
+#: po/header.h:9
+msgid "View graph"
+msgstr ""
+
+#: po/header.h:10
+msgid "_Apply"
+msgstr ""
+
+#: po/header.h:11
+msgid "Output type"
+msgstr ""
+
+#: po/header.h:12
+msgid "Layer where the neuron is located"
+msgstr ""
+
+#: po/header.h:13
+msgid "C"
+msgstr ""
+
+#: po/header.h:14
+msgid "Activation functions"
+msgstr ""
+
+#: po/header.h:15
+msgid "Training parameters"
+msgstr ""
+
+#: po/header.h:16
+msgid "Batch"
+msgstr ""
+
+#: po/header.h:17
+msgid "Momentum term"
+msgstr ""
+
+#: po/header.h:18
+msgid "<b>Description:</b>"
+msgstr ""
+
+#: po/header.h:19
+msgid "View snapshots of the network weights"
+msgstr ""
+
+#: po/header.h:20
+msgid "The desired mean squared error / bit fail"
+msgstr ""
+
+#: po/header.h:21
+msgid "Couldn't save the project"
+msgstr ""
+
+#: po/header.h:22
+msgid "Value"
+msgstr ""
+
+#: po/header.h:23
+msgid "_Max epochs"
+msgstr ""
+
+#: po/header.h:24
+msgid "There aren't any weight snapshot to show"
+msgstr ""
+
+#: po/header.h:25
+msgid "Map associations"
+msgstr ""
+
+#: po/header.h:26
+msgid "_Quit"
+msgstr ""
+
+#: po/header.h:27
+msgid "Nguyen-Widrow"
+msgstr ""
+
+#: po/header.h:28
+msgid "Test network"
+msgstr ""
+
+#: po/header.h:29
+msgid "Sparse"
+msgstr ""
+
+#: po/header.h:30
+msgid "Generate report"
+msgstr ""
+
+#: po/header.h:31
+msgid "_Maps"
+msgstr ""
+
+#: po/header.h:32
+msgid "Data editor"
+msgstr ""
+
+#: po/header.h:33
+msgid "Train the network"
+msgstr ""
+
+#: po/header.h:34
+msgid "HTML page"
+msgstr ""
+
+#: po/header.h:35
+msgid "Add-on name"
+msgstr ""
+
+#: po/header.h:36
+msgid "_Project"
+msgstr ""
+
+#: po/header.h:37
+msgid "Map name"
+msgstr ""
+
+#: po/header.h:38
+msgid "Number of neurons per layer"
+msgstr ""
+
+#: po/header.h:39
+msgid "_Copy"
+msgstr ""
+
+#: po/header.h:40
+msgid "PNG image"
+msgstr ""
+
+#: po/header.h:41
+msgid "Layer to set the activation function"
+msgstr ""
+
+#: po/header.h:42
+msgid "View the graph of the network"
+msgstr ""
+
+#: po/header.h:43
+msgid "View _Graph"
+msgstr ""
+
+#: po/header.h:44
+msgid "Set the activation function for an entire layer"
+msgstr ""
+
+#: po/header.h:45
+msgid "Neurons per layer"
+msgstr ""
+
+#: po/header.h:46
+msgid "_Data Maps"
+msgstr ""
+
+#: po/header.h:47
+msgid "_Exporter"
+msgstr ""
+
+#: po/header.h:48
+msgid "Run a_ll"
+msgstr ""
+
+#: po/header.h:49
+msgid "Save graph"
+msgstr ""
+
+#: po/header.h:50
+msgid "Test the network using an existing data"
+msgstr ""
+
+#: po/header.h:51
+msgid "_Weights"
+msgstr ""
+
+#: po/header.h:52
+msgid "_Execution"
+msgstr ""
+
+#: po/header.h:53
+msgid "Decrease factor of the connection weights"
+msgstr ""
+
+#: po/header.h:54
+msgid "Per _layer"
+msgstr ""
+
+#: po/header.h:55
+msgid "Learning momentum"
+msgstr ""
+
+#: po/header.h:56
+msgid "No map"
+msgstr ""
+
+#: po/header.h:57
+msgid ""
+"Sample description.\n"
+"May have multiple lines."
+msgstr ""
+
+#: po/header.h:58
+msgid "_Topology"
+msgstr ""
+
+#: po/header.h:59
+msgid "Test"
+msgstr ""
+
+#: po/header.h:60
+msgid "_Run"
+msgstr ""
+
+#: po/header.h:61
+msgid ".lua"
+msgstr ""
+
+#: po/header.h:62
+msgid "Epochs between reports"
+msgstr ""
+
+#: po/header.h:63
+msgid "Shu_ffle"
+msgstr ""
+
+#: po/header.h:64
+msgid ""
+"The number of input/output neurons in the data doesn't matches the network."
+msgstr ""
+
+#: po/header.h:65
+msgid "Test result"
+msgstr ""
+
+#: po/header.h:66
+msgid "SARPROP"
+msgstr ""
+
+#: po/header.h:67
+msgid "Gaussian symmetric"
+msgstr ""
+
+#: po/header.h:68
+msgid "Add a new row"
+msgstr ""
+
+#: po/header.h:69
+msgid "Training"
+msgstr ""
+
+#: po/header.h:70
+msgid "Select the spacing between layers"
+msgstr ""
+
+#: po/header.h:71
+msgid "Test the network"
+msgstr ""
+
+#: po/header.h:72
+msgid "Use the mean squared error as stop condition"
+msgstr ""
+
+#: po/header.h:73
+msgid "S_pacing (%)"
+msgstr ""
+
+#: po/header.h:74
+msgid "_Information"
+msgstr ""
+
+#: po/header.h:75
+msgid "Lucas Hermann Negri"
+msgstr ""
+
+#: po/header.h:76
+msgid "Delta max"
+msgstr ""
+
+#: po/header.h:77
+msgid "Connection rate"
+msgstr ""
+
+#: po/header.h:78
+msgid "Type"
+msgstr ""
+
+#: po/header.h:79
+msgid "Create a copy of the selected data"
+msgstr ""
+
+#: po/header.h:80
+msgid "Linear piece"
+msgstr ""
+
+#: po/header.h:81
+msgid "_Cancel"
+msgstr ""
+
+#: po/header.h:82
+msgid "Total neurons"
+msgstr ""
+
+#: po/header.h:83
+msgid "Connection rate of the network"
+msgstr ""
+
+#: po/header.h:84
+msgid "Remove the selected data"
+msgstr ""
+
+#: po/header.h:85
+msgid "<i>To:</i> "
+msgstr ""
+
+#: po/header.h:86
+msgid "Sigmoid"
+msgstr ""
+
+#: po/header.h:87
+#, c-format
+msgid "%.4f to %.4f"
+msgstr ""
+
+#: po/header.h:88
+msgid "Gaussian"
+msgstr ""
+
+#: po/header.h:89
+msgid "Training status"
+msgstr ""
+
+#: po/header.h:90
+msgid "Threshold symmetric"
+msgstr ""
+
+#: po/header.h:91
+msgid "_Log epochs"
+msgstr ""
+
+#: po/header.h:92
+msgid "_Add-ons"
+msgstr ""
+
+#: po/header.h:93
+msgid "Sigmoid stepwise"
+msgstr ""
+
+#: po/header.h:94
+msgid "Configure the activation functions"
+msgstr ""
+
+#: po/header.h:95
+msgid "Couldn't render the plotting"
+msgstr ""
+
+#: po/header.h:96
+msgid "Add a new data"
+msgstr ""
+
+#: po/header.h:97
+msgid "Available maps"
+msgstr ""
+
+#: po/header.h:98
+msgid "From"
+msgstr ""
+
+#: po/header.h:99
+msgid "Apply the changes"
+msgstr ""
+
+#: po/header.h:100
+msgid "_About"
+msgstr ""
+
+#: po/header.h:101
+msgid "Delta min"
+msgstr ""
+
+#: po/header.h:102
+msgid "_Neurons"
+msgstr ""
+
+#: po/header.h:103
+msgid "Steepness"
+msgstr ""
+
+#: po/header.h:104
+msgid "_Map"
+msgstr ""
+
+#: po/header.h:105
+msgid "Add-on authors"
+msgstr ""
+
+#: po/header.h:106
+msgid "Network type"
+msgstr ""
+
+#: po/header.h:107
+msgid "Sample"
+msgstr ""
+
+#: po/header.h:108
+msgid "Neuron to set the activation function"
+msgstr ""
+
+#: po/header.h:109
+msgid "Total connections"
+msgstr ""
+
+#: po/header.h:110
+msgid ""
+"Exports the neural network and\n"
+"generates a simple program to use it."
+msgstr ""
+
+#: po/header.h:111
+msgid "None"
+msgstr ""
+
+#: po/header.h:112
+msgid "Close the project"
+msgstr ""
+
+#: po/header.h:113
+msgid "Upper limit"
+msgstr ""
+
+#: po/header.h:114
+msgid "Input#"
+msgstr ""
+
+#: po/header.h:115
+msgid "Add a new interval point"
+msgstr ""
+
+#: po/header.h:116
+msgid "_Description"
+msgstr ""
+
+#: po/header.h:117
+msgid "View the loaded add-ons"
+msgstr ""
+
+#: po/header.h:118
+msgid "<b>Author(s):</b>"
+msgstr ""
+
+#: po/header.h:119
+msgid "_Layer"
+msgstr ""
+
+#: po/header.h:120
+msgid "Couldn't save the project."
+msgstr ""
+
+#: po/header.h:121
+msgid "Step error shift"
+msgstr ""
+
+#: po/header.h:122
+msgid "Factor that determines how aggressive the training should be"
+msgstr ""
+
+#: po/header.h:123
+msgid "Increase/decrease factor of the step-size"
+msgstr ""
+
+#: po/header.h:124
+msgid "Save project"
+msgstr ""
+
+#: po/header.h:125
+msgid "Reporter"
+msgstr ""
+
+#: po/header.h:126
+msgid "Initialize _Weights"
+msgstr ""
+
+#: po/header.h:127
+msgid "Run the network for general inputs"
+msgstr ""
+
+#: po/header.h:128
+msgid "Layer"
+msgstr ""
+
+#: po/header.h:129
+msgid "Total number of connections in the network"
+msgstr ""
+
+#: po/header.h:130
+msgid "The current project is not saved. Close it anyway?"
+msgstr ""
+
+#: po/header.h:131
+msgid "Invalid network type "
+msgstr ""
+
+#: po/header.h:132
+msgid "Increase factor of the training step-size"
+msgstr ""
+
+#: po/header.h:133
+msgid "Map"
+msgstr ""
+
+#: po/header.h:134
+msgid "Add-on description"
+msgstr ""
+
+#: po/header.h:135
+msgid "Te_st"
+msgstr ""
+
+#: po/header.h:136
+msgid "Time elapsed (s)"
+msgstr ""
+
+#: po/header.h:137
+msgid "Export project"
+msgstr ""
+
+#: po/header.h:138
+msgid "_Remove"
+msgstr ""
+
+#: po/header.h:139
+msgid "Bit fail"
+msgstr ""
+
+#: po/header.h:140
+msgid "RPROP"
+msgstr ""
+
+#: po/header.h:141
+msgid "_Import"
+msgstr ""
+
+#: po/header.h:142
+msgid "SVG image"
+msgstr ""
+
+#: po/header.h:143
+msgid "New data"
+msgstr ""
+
+#: po/header.h:144
+msgid "Data manager"
+msgstr ""
+
+#: po/header.h:145
+msgid "Create network"
+msgstr ""
+
+#: po/header.h:146
+msgid "Range"
+msgstr ""
+
+#: po/header.h:147
+msgid "Import a data from a file"
+msgstr ""
+
+#: po/header.h:148
+msgid "_Parameters"
+msgstr ""
+
+#: po/header.h:149
+msgid "Network topology"
+msgstr ""
+
+#: po/header.h:150
+msgid "Add-ons"
+msgstr ""
+
+#: po/header.h:151
+msgid "To"
+msgstr ""
+
+#: po/header.h:152
+msgid "Confirmation"
+msgstr ""
+
+#: po/header.h:153
+msgid "Neuron"
+msgstr ""
+
+#: po/header.h:154
+msgid "Unloading sample"
+msgstr ""
+
+#: po/header.h:155
+msgid "Bias per layer"
+msgstr ""
+
+#: po/header.h:156
+#, c-format
+msgid "Permanently remove <b>%s</b>?"
+msgstr ""
+
+#: po/header.h:157
+msgid "_Bit fail limit"
+msgstr ""
+
+#: po/header.h:158
+msgid "Open an existing project"
+msgstr ""
+
+#: po/header.h:159
+msgid "Runs the network for all rows"
+msgstr ""
+
+#: po/header.h:160
+msgid "Sample tooltip"
+msgstr ""
+
+#: po/header.h:161
+msgid "_Rate %"
+msgstr ""
+
+#: po/header.h:162
+msgid "Loading sample"
+msgstr ""
+
+#: po/header.h:163
+msgid "Stop condition"
+msgstr ""
+
+#: po/header.h:164
+msgid "Save the project"
+msgstr ""
+
+#: po/header.h:165
+msgid "Incremental"
+msgstr ""
+
+#: po/header.h:166
+msgid "Sample addon"
+msgstr ""
+
+#: po/header.h:167
+msgid "Generate reports about the current project"
+msgstr ""
+
+#: po/header.h:168
+msgid "<b>Add-on:</b>"
+msgstr ""
+
+#: po/header.h:169
+msgid "Remove all hidden layers and added neurons"
+msgstr ""
+
+#: po/header.h:170
+msgid "Linear piece symmetric"
+msgstr ""
+
+#: po/header.h:171
+msgid "Decrease factor"
+msgstr ""
+
+#: po/header.h:172
+msgid "_Fixed point"
+msgstr ""
+
+#: po/header.h:173
+msgid "HTML"
+msgstr ""
+
+#: po/header.h:174
+msgid "Epoch"
+msgstr ""
+
+#: po/header.h:175
+msgid "Initialize the connection weights of the network"
+msgstr ""
+
+#: po/header.h:176
+msgid "Use the bit fail as stop condition"
+msgstr ""
+
+#: po/header.h:177
+msgid "_Edit"
+msgstr ""
+
+#: po/header.h:178
+msgid "Cos symmetric"
+msgstr ""
+
+#: po/header.h:179
+msgid "Bit fail limit"
+msgstr ""
+
+#: po/header.h:180
+msgid "_Close"
+msgstr ""
+
+#: po/header.h:181
+msgid "Remove the selected map"
+msgstr ""
+
+#: po/header.h:182
+msgid "Stop function"
+msgstr ""
+
+#: po/header.h:183
+msgid ""
+"Generates reports about the\n"
+"current project."
+msgstr ""
+
+#: po/header.h:184
+msgid "Stops the training"
+msgstr ""
+
+#: po/header.h:185
+msgid "Temperature"
+msgstr ""
+
+#: po/header.h:186
+msgid "Save the network for external use"
+msgstr ""
+
+#: po/header.h:187
+msgid "Edit the network topology"
+msgstr ""
+
+#: po/header.h:188
+#, c-format
+msgid "Couldn't export to %s"
+msgstr ""
+
+#: po/header.h:189
+msgid "Selected training algorithm"
+msgstr ""
+
+#: po/header.h:190
+msgid "Weight decay shift"
+msgstr ""
+
+#: po/header.h:191
+msgid "SARPROP weight decay shift"
+msgstr ""
+
+#: po/header.h:192
+msgid ", bias"
+msgstr ""
+
+#: po/header.h:193
+msgid "Max"
+msgstr ""
+
+#: po/header.h:194
+msgid "Configure the training parameters"
+msgstr ""
+
+#: po/header.h:195
+msgid "Edit the selected map"
+msgstr ""
+
+#: po/header.h:196
+msgid "No code"
+msgstr ""
+
+#: po/header.h:197
+msgid "Lua"
+msgstr ""
+
+#: po/header.h:198
+msgid "Scale the selected data between an interval"
+msgstr ""
+
+#: po/header.h:199
+msgid "Export _type"
+msgstr ""
+
+#: po/header.h:200
+msgid "Exporter"
+msgstr ""
+
+#: po/header.h:201
+msgid "Per _neuron"
+msgstr ""
+
+#: po/header.h:202
+msgid ""
+"<b>Connection details:</b>\n"
+"\n"
+msgstr ""
+
+#: po/header.h:203
+msgid "Output"
+msgstr ""
+
+#: po/header.h:204
+#, c-format
+msgid " (layer: %d, pos: %d%s)"
+msgstr ""
+
+#: po/header.h:205
+msgid "Source layer to show the connections"
+msgstr ""
+
+#: po/header.h:206
+msgid "Weight"
+msgstr ""
+
+#: po/header.h:207
+msgid "Min"
+msgstr ""
+
+#: po/header.h:208
+msgid "_Train"
+msgstr ""
+
+#: po/header.h:209
+msgid "Set the connection weights to random values between a range"
+msgstr ""
+
+#: po/header.h:210
+msgid "Classification"
+msgstr ""
+
+#: po/header.h:211
+msgid "to"
+msgstr ""
+
+#: po/header.h:212
+msgid "Initial value of the step-size"
+msgstr ""
+
+#: po/header.h:213
+msgid "Initialize weights"
+msgstr ""
+
+#: po/header.h:214
+msgid "Mu"
+msgstr ""
+
+#: po/header.h:215
+msgid "View weights"
+msgstr ""
+
+#: po/header.h:216
+msgid "Information"
+msgstr ""
+
+#: po/header.h:217
+msgid "Standard"
+msgstr ""
+
+#: po/header.h:218
+msgid "Weight snapshots"
+msgstr ""
+
+#: po/header.h:219
+msgid "Scale _output"
+msgstr ""
+
+#: po/header.h:220
+msgid "Scale _input"
+msgstr ""
+
+#: po/header.h:221
+msgid "Mean squared error"
+msgstr ""
+
+#: po/header.h:222
+msgid "Learning rate"
+msgstr ""
+
+#: po/header.h:223
+msgid "If the network will be exported using fixed point numbers"
+msgstr ""
+
+#: po/header.h:224
+msgid "Scale data"
+msgstr ""
+
+#: po/header.h:225
+msgid "Function"
+msgstr ""
+
+#: po/header.h:226
+msgid "_Training"
+msgstr ""
+
+#: po/header.h:227
+msgid "Starts the training"
+msgstr ""
+
+#: po/header.h:228
+msgid "Show _bias"
+msgstr ""
+
+#: po/header.h:229
+msgid "_Start"
+msgstr ""
+
+#: po/header.h:230
+msgid "Decrease factor of the step-size"
+msgstr ""
+
+#: po/header.h:231
+msgid "View the connection weights of the network"
+msgstr ""
+
+#: po/header.h:232
+msgid "_Type"
+msgstr ""
+
+#: po/header.h:233
+msgid "The interval between logs (0 disables the logs)"
+msgstr ""
+
+#: po/header.h:234
+msgid "Remove a hidden layer"
+msgstr ""
+
+#: po/header.h:235
+msgid "Training _data"
+msgstr ""
+
+#: po/header.h:236
+msgid "Quit from the application"
+msgstr ""
+
+#: po/header.h:237
+msgid "The acceptable bit error"
+msgstr ""
+
+#: po/header.h:238
+msgid "Hidden"
+msgstr ""
+
+#: po/header.h:239
+msgid "Shortcut"
+msgstr ""
+
+#: po/header.h:240
+msgid "Open project"
+msgstr ""
+
+#: po/header.h:241
+msgid "Save the network graph"
+msgstr ""
+
+#: po/header.h:242
+msgid "Desired _error"
+msgstr ""
+
+#: po/header.h:243
+msgid "Training data to be used"
+msgstr ""
+
+#: po/header.h:244
+msgid "The maximum number of epochs that the training can run"
+msgstr ""
+
+#: po/header.h:245
+msgid "_New"
+msgstr ""
+
+#: po/header.h:246
+msgid "Parameters"
+msgstr ""
+
+#: po/header.h:247
+msgid "Input"
+msgstr ""
+
+#: po/header.h:248
+msgid "Bit limit"
+msgstr ""
+
+#: po/header.h:249
+msgid "0"
+msgstr ""
+
+#: po/header.h:250
+msgid ".c"
+msgstr ""
+
+#: po/header.h:251
+msgid "Ru_n"
+msgstr ""
+
+#: po/header.h:252
+msgid "_Scale"
+msgstr ""
+
+#: po/header.h:253
+msgid "There aren't any data to show"
+msgstr ""
+
+#: po/header.h:254
+msgid "Toggles the bias neuron visualization"
+msgstr ""
+
+#: po/header.h:255
+msgid "Run a copy of the selected data"
+msgstr ""
+
+#: po/header.h:256
+msgid "Threshold"
+msgstr ""
+
+#: po/header.h:257
+msgid "Training history"
+msgstr ""
+
+#: po/header.h:258
+msgid "_Save"
+msgstr ""
+
+#: po/header.h:259
+msgid "New map"
+msgstr ""
+
+#: po/header.h:260
+msgid "Create a new project"
+msgstr ""
+
+#: po/header.h:261
+msgid "Neural Network Simulator"
+msgstr ""
+
+#: po/header.h:262
+msgid "View the plotting of the bit fail changes"
+msgstr ""
+
+#: po/header.h:263
+msgid "Shuffle the rows of selected data"
+msgstr ""
+
+#: po/header.h:264
+msgid "Sample clicked!"
+msgstr ""
+
+#: po/header.h:265
+msgid "_MSE"
+msgstr ""
+
+#: po/header.h:266
+msgid "Quickprop"
+msgstr ""
+
+#: po/header.h:267
+msgid "Linear"
+msgstr ""
+
+#: po/header.h:268
+msgid "Elapsed time"
+msgstr ""
+
+#: po/header.h:269
+msgid "Elliot symmetric"
+msgstr ""
+
+#: po/header.h:270
+msgid "Epochs"
+msgstr ""
+
+#: po/header.h:271
+msgid "Sigmoid symmetric"
+msgstr ""
+
+#: po/header.h:272
+msgid "Output#"
+msgstr ""
+
+#: po/header.h:273
+msgid "Delta zero"
+msgstr ""
+
+#: po/header.h:274
+msgid "Randomize"
+msgstr ""
+
+#: po/header.h:275
+msgid "Activation function"
+msgstr ""
+
+#: po/header.h:276
+msgid "Remove the selected interval points"
+msgstr ""
+
+#: po/header.h:277
+msgid "_Bit"
+msgstr ""
+
+#: po/header.h:278
+msgid "_Zoom (%)"
+msgstr ""
+
+#: po/header.h:279
+msgid "Manage the data maps"
+msgstr ""
+
+#: po/header.h:280
+msgid "Test data to be used"
+msgstr ""
+
+#: po/header.h:281
+msgid "Test _data"
+msgstr ""
+
+#: po/header.h:282
+msgid "_View Add-ons"
+msgstr ""
+
+#: po/header.h:283
+msgid "Set the activation function for a single neuron"
+msgstr ""
+
+#: po/header.h:284
+msgid "Remove the selected rows"
+msgstr ""
+
+#: po/header.h:285
+msgid "SARPROP temperature"
+msgstr ""
+
+#: po/header.h:286
+msgid "Sin symmetric"
+msgstr ""
+
+#: po/header.h:287
+msgid "(Copy)"
+msgstr ""
+
+#: po/header.h:288
+msgid "R_un"
+msgstr ""
+
+#: po/header.h:289
+msgid "Couldn't load the project."
+msgstr ""
+
+#: po/header.h:290
+msgid "<i>From:</i> "
+msgstr ""
+
+#: po/header.h:291
+msgid "Increase factor"
+msgstr ""
+
+#: po/header.h:292
+msgid "Minimum value of the step-size"
+msgstr ""
+
+#: po/header.h:293
+msgid "Edit network"
+msgstr ""
+
+#: po/header.h:294
+msgid "Map manager"
+msgstr ""
+
+#: po/header.h:295
+msgid "Desired error"
+msgstr ""
+
+#: po/header.h:296
+msgid "Add a new map"
+msgstr ""
+
+#: po/header.h:297
+msgid "SARPROP step error threshold factor"
+msgstr ""
+
+#: po/header.h:298
+msgid "Map editor"
+msgstr ""
+
+#: po/header.h:299
+#, c-format
+msgid "%s v%s"
+msgstr ""
+
+#: po/header.h:300
+msgid "View the plotting of the mean squared error changes"
+msgstr ""
+
+#: po/header.h:301
+msgid "View informations about the application"
+msgstr ""
+
+#: po/header.h:302
+msgid "Step error threshold factor"
+msgstr ""
+
+#: po/header.h:303
+msgid "Network connection type"
+msgstr ""
+
+#: po/header.h:304
+msgid "Decay"
+msgstr ""
+
+#: po/header.h:305
+msgid "Network runner"
+msgstr ""
+
+#: po/header.h:306
+msgid "Snapshot"
+msgstr ""
+
+#: po/header.h:307
+msgid "_Add"
+msgstr ""
+
+#: po/header.h:308
+msgid "Maximum value of the step-size"
+msgstr ""
+
+#: po/header.h:309
+msgid "Open training/test data"
+msgstr ""
+
+#: po/header.h:310
+msgid "SARPROP step error shift"
+msgstr ""
+
+#: po/header.h:311
+msgid "Invalid data"
+msgstr ""
+
+#: po/header.h:312
+msgid "Max epochs"
+msgstr ""
+
+#: po/header.h:313
+msgid "Data _Manager"
+msgstr ""
+
+#: po/header.h:314
+msgid "Add a hidden layer"
+msgstr ""
+
+#: po/header.h:315
+msgid "Set the connection weights according to the Nguyen-Widrow algorithm"
+msgstr ""
+
+#: po/header.h:316
+msgid "Close the dialog"
+msgstr ""
+
+#: po/header.h:317
+msgid "Activation _Functions"
+msgstr ""
+
+#: po/header.h:318
+msgid "Manage the training / test data"
+msgstr ""
+
+#: po/header.h:319
+msgid "Mean squared error history"
+msgstr ""
+
+#: po/header.h:320
+msgid "Cos"
+msgstr ""
+
+#: po/header.h:321
+msgid "View Weig_hts"
+msgstr ""
+
+#: po/header.h:322
+msgid "Select the zoom level"
+msgstr ""
+
+#: po/header.h:323
+msgid "Neurons"
+msgstr ""
+
+#: po/header.h:324
+msgid "_Open"
+msgstr ""
+
+#: po/header.h:325
+msgid "Runs the network for the selected rows"
+msgstr ""
+
+#: po/header.h:326
+msgid "View add-ons"
+msgstr ""
+
+#: po/header.h:327
+msgid "Res_et"
+msgstr ""
+
+#: po/header.h:328
+msgid "Elliot"
+msgstr ""
+
+#: po/header.h:329
+msgid "Sin"
+msgstr ""
+
+#: po/header.h:330
+msgid "Toggle the map visualization"
+msgstr ""
+
+#: po/header.h:331
+msgid "Invalid project"
+msgstr ""
+
+#: po/header.h:332
+msgid "Total number of neurons in the network"
+msgstr ""
+
+#: po/header.h:333
+msgid "Training algorithm"
+msgstr ""
+
+#: po/header.h:334
+msgid "_Reporter"
+msgstr ""
+
+#: po/header.h:335
+msgid "_Layers"
+msgstr ""
+
+#: po/header.h:336
+msgid "Imported data"
+msgstr ""
+
+#: po/header.h:337
+msgid "Number of bias neurons per layer"
+msgstr ""
+
+#: po/header.h:338
+msgid "Algorithm"
+msgstr ""
+
+#: po/header.h:339
+msgid "Activation function steepness"
+msgstr ""

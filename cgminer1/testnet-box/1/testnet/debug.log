@@ -1,0 +1,1437 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bitcoin version vCLIENT_VERSION_MAJOR.CLIENT_VERSION_MINOR.CLIENT_VERSION_REVISION.CLIENT_VERSION_BUILD-g40fd689-beta ()
+Default data directory /root/.bitcoin
+Loading addresses...
+dbenv.open LogDir=/root/git/cgminer/testnet-box/1/testnet/database ErrorFile=/root/git/cgminer/testnet-box/1/testnet/db.log
+Loaded 0 addresses
+ addresses               205ms
+Loading block index...
+00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008
+00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008
+4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+CBlock(hash=00000007199508e34a9f, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=4a5e1e4baa, nTime=1296688602, nBits=1d07fff8, nNonce=384568319, vtx=1)
+  CTransaction(hash=4a5e1e4baa, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73)
+    CTxOut(nValue=50.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+  vMerkleTree: 4a5e1e4baa 
+SetBestChain: new best=00000007199508e34a9f  height=0  work=536879104
+ block index             204ms
+Loading wallet...
+nFileVersion = 60202
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool reserve 1
+keypool keep 1
+ wallet                  805ms
+Done loading
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 5
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Bound to port 19000
+ThreadRPCServer started
+ipv4 eth2: 10.1.2.55
+addrLocalHost = 10.1.2.55:19000
+DNS seeding disabled
+ThreadIRCSeed exiting
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenConnections started
+ThreadOpenAddedConnections exiting
+ThreadMessageHandler started
+GetMyExternalIP() received [46.120.18.86] 46.120.18.86:0
+GetMyExternalIP() returned 46.120.18.86
+02/02/14 10:42:55 Flushing wallet.dat
+Flushed wallet.dat 95ms
+accepted connection 127.0.0.1:58100
+Added time data, samples 2, offset -1 (+0 minutes)
+version message: version 60001, blocks=0
+getblocks -1 to 00000000000000000000 limit 500
+ThreadRPCServer method=help
+ThreadRPCServer method=getinfo
+keypool added key 7, size=6
+keypool reserve 2
+keypool return 2
+02/02/14 10:43:12 Flushing wallet.dat
+Flushed wallet.dat 38ms
+ThreadRPCServer method=getblocktemplate
+keypool reserve 2
+CreateNewBlock(): total size 1000
+ThreadRPCServer method=setgenerate
+4 processors
+Starting 4 BitcoinMiner threads
+BitcoinMiner started
+BitcoinMiner started
+BitcoinMiner started
+BitcoinMiner started
+keypool added key 8, size=6
+keypool reserve 3
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 9, size=6
+keypool reserve 4
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 10, size=6
+keypool reserve 5
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 11, size=6
+keypool reserve 6
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+02/02/14 10:46:32 Flushing wallet.dat
+Flushed wallet.dat 32ms
+ThreadRPCServer method=getblocktemplate
+02/02/14 10:46 hashmeter   4 CPUs   2807 khash/s
+ThreadRPCServer method=setgenerate
+keypool return 3
+ThreadBitcoinMiner exiting, 3 threads remaining
+keypool return 6
+ThreadBitcoinMiner exiting, 2 threads remaining
+keypool return 4
+ThreadBitcoinMiner exiting, 1 threads remaining
+keypool return 5
+ThreadBitcoinMiner exiting, 0 threads remaining
+ThreadRPCServer method=getblocktemplate
+ResendWalletTransactions()
+ThreadRPCServer method=getblocktemplate
+ThreadRPCServer method=getblocktemplate
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ThreadRPCServer method=setgenerate
+4 processors
+Starting 4 BitcoinMiner threads
+BitcoinMiner started
+BitcoinMiner started
+BitcoinMiner started
+BitcoinMiner started
+keypool reserve 3
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool reserve 4
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool reserve 5
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool reserve 6
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+ThreadRPCServer method=getblocktemplate
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000035e85059576ad09d7ebcd1eb42174f9e3f18b64c4756dae96655f141e  
+target: 0000000fffff0000000000000000000000000000000000000000000000000000
+CBlock(hash=000000035e85059576ad, ver=1, hashPrevBlock=00000007199508e34a9f, hashMerkleRoot=27ed334d44, nTime=1391339627, nBits=1d0fffff, nNonce=2819448065, vtx=1)
+  CTransaction(hash=27ed334d44, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 043a28ee520101062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=02021d43a2fb02b092a0138daf68a0)
+  vMerkleTree: 27ed334d44 
+02/02/14 11:13 generated 50.00
+keypool keep 3
+AddToWallet 27ed334d44  new
+SetBestChain: new best=000000035e85059576ad  height=1  work=805314816
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 12, size=6
+CreateNewBlock(): total size 1000
+keypool reserve 7
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000035e85059576ad
+02/02/14 11:13:50 Flushing wallet.dat
+Flushed wallet.dat 38ms
+02/02/14 11:16 hashmeter   4 CPUs   2816 khash/s
+BitcoinMiner:
+proof-of-work found  
+  hash: 0000000019d00c86e85ed5c8942459ea15586b27ab829553fd70cfb49824274e  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000019d00c86e85e, ver=1, hashPrevBlock=000000035e85059576ad, hashMerkleRoot=e75c98afa8, nTime=1391339796, nBits=1d07fff8, nNonce=1756626182, vtx=1)
+  CTransaction(hash=e75c98afa8, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 046c28ee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=037d619111479b414a32861adfa36d)
+  vMerkleTree: e75c98afa8 
+02/02/14 11:16 generated 50.00
+keypool keep 4
+AddToWallet e75c98afa8  new
+SetBestChain: new best=0000000019d00c86e85e  height=2  work=1342193920
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+keypool added key 13, size=6
+keypool reserve 8
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 0000000019d00c86e85e
+02/02/14 11:16:38 Flushing wallet.dat
+Flushed wallet.dat 62ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000007d885caea0d04957f9666f07a4ac59a6259a430d09b4920aa7b88a8c4  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000007d885caea0d04, ver=1, hashPrevBlock=0000000019d00c86e85e, hashMerkleRoot=0a9d28e5d2, nTime=1391339972, nBits=1d07fff8, nNonce=3355536903, vtx=1)
+  CTransaction(hash=0a9d28e5d2, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 041429ee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=03612f22c476454eb2a97ba7b8d423)
+  vMerkleTree: 0a9d28e5d2 
+02/02/14 11:19 generated 50.00
+keypool keep 6
+AddToWallet 0a9d28e5d2  new
+SetBestChain: new best=00000007d885caea0d04  height=3  work=1879073024
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 14, size=6
+keypool reserve 9
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000007d885caea0d04
+02/02/14 11:19:35 Flushing wallet.dat
+Flushed wallet.dat 109ms
+ThreadRPCServer method=getblocktemplate
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000007ada60d6f344910681c0b3172fe9449feb9e80a297fec804db3e0c8f4  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000007ada60d6f3449, ver=1, hashPrevBlock=00000007d885caea0d04, hashMerkleRoot=e4d722b7f4, nTime=1391340015, nBits=1d07fff8, nNonce=1866173441, vtx=1)
+  CTransaction(hash=e4d722b7f4, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04c429ee520103062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=027def4b218037a302d66d045460aa)
+  vMerkleTree: e4d722b7f4 
+02/02/14 11:20 generated 50.00
+keypool keep 9
+AddToWallet e4d722b7f4  new
+SetBestChain: new best=00000007ada60d6f3449  height=4  work=2415952128
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 15, size=6
+keypool reserve 10
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000007ada60d6f3449
+02/02/14 11:20:18 Flushing wallet.dat
+Flushed wallet.dat 89ms
+ThreadRPCServer method=getblocktemplate
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000075d44d2cf10284b0e85c99f3fbfc239bbb37e32edb09ec84783ce0aeb  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000075d44d2cf1028, ver=1, hashPrevBlock=00000007ada60d6f3449, hashMerkleRoot=9f38765eac, nTime=1391340047, nBits=1d07fff8, nNonce=359386368, vtx=1)
+  CTransaction(hash=9f38765eac, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04f029ee520101062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=02f17816e681565861dd8999990fe2)
+  vMerkleTree: 9f38765eac 
+02/02/14 11:20 generated 50.00
+keypool keep 7
+AddToWallet 9f38765eac  new
+SetBestChain: new best=000000075d44d2cf1028  height=5  work=2952831232
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 16, size=6
+keypool reserve 11
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000075d44d2cf1028
+02/02/14 11:20:50 Flushing wallet.dat
+Flushed wallet.dat 47ms
+ThreadRPCServer method=getblocktemplate
+CreateNewBlock(): total size 1000
+ResendWalletTransactions()
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000002e70ed7b4ae97d7d3c5e20982e123dba61fc23d9b8a0a489c5090c3b0  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000002e70ed7b4ae97, ver=1, hashPrevBlock=000000075d44d2cf1028, hashMerkleRoot=0097e0353e, nTime=1391340117, nBits=1d07fff8, nNonce=2622902274, vtx=1)
+  CTransaction(hash=0097e0353e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04102aee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=02f3c2806db5272a5fc7567e0d1aaa)
+  vMerkleTree: 0097e0353e 
+02/02/14 11:21 generated 50.00
+keypool keep 11
+AddToWallet 0097e0353e  new
+SetBestChain: new best=00000002e70ed7b4ae97  height=6  work=3489710336
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 17, size=6
+keypool reserve 12
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000002e70ed7b4ae97
+02/02/14 11:22:00 Flushing wallet.dat
+Flushed wallet.dat 45ms
+ThreadRPCServer method=getblocktemplate
+CreateNewBlock(): total size 1000
+ThreadRPCServer method=getblocktemplate
+ThreadRPCServer method=getblocktemplate
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000003cd6fbca9b44b18a3bdd2e61e54f35be88b826b83a1853d1c5afe0a0  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000003cd6fbca9b44, ver=1, hashPrevBlock=00000002e70ed7b4ae97, hashMerkleRoot=bbcb488674, nTime=1391340365, nBits=1d07fff8, nNonce=346700289, vtx=1)
+  CTransaction(hash=bbcb488674, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 044d2bee520166062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=02511f4644bf42a2adbe3449e939c7)
+  vMerkleTree: bbcb488674 
+02/02/14 11:26 generated 50.00
+keypool keep 2
+AddToWallet bbcb488674  new
+SetBestChain: new best=000000003cd6fbca9b44  height=7  work=4026589440
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000003cd6fbca9b44
+02/02/14 11:26:42 Flushing wallet.dat
+Flushed wallet.dat 60ms
+keypool added key 18, size=6
+keypool reserve 13
+CreateNewBlock(): total size 1000
+02/02/14 11:27:09 Flushing wallet.dat
+Flushed wallet.dat 108ms
+ThreadRPCServer method=getinfo
+keypool added key 19, size=6
+keypool reserve 14
+keypool return 14
+02/02/14 11:27:28 Flushing wallet.dat
+Flushed wallet.dat 42ms
+ThreadRPCServer method=getinfo
+keypool reserve 14
+keypool return 14
+ThreadRPCServer method=getinfo
+keypool reserve 14
+keypool return 14
+ThreadRPCServer method=getinfo
+keypool reserve 14
+keypool return 14
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000004283948c71aa8db8d9f954691bb8c46d4a7c37e74958f955e6dca6d7c  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000004283948c71aa8, ver=1, hashPrevBlock=000000003cd6fbca9b44, hashMerkleRoot=30c7c802ac, nTime=1391340514, nBits=1d07fff8, nNonce=1064746241, vtx=1)
+  CTransaction(hash=30c7c802ac, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04712bee520107062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0383b652d082610d2fdaef949d090f)
+  vMerkleTree: 30c7c802ac 
+02/02/14 11:28 generated 50.00
+keypool keep 10
+AddToWallet 30c7c802ac  new
+SetBestChain: new best=00000004283948c71aa8  height=8  work=4563468544
+ProcessBlock: ACCEPTED
+keypool reserve 14
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000004283948c71aa8
+02/02/14 11:28:37 Flushing wallet.dat
+Flushed wallet.dat 82ms
+ThreadRPCServer method=getblocktemplate
+CreateNewBlock(): total size 1000
+ThreadRPCServer method=getblocktemplate
+ThreadRPCServer method=getblocktemplate
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000002cc67234669a3db9e2b9272f8361038477a94f07fe577f3a37353553b  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000002cc67234669a3, ver=1, hashPrevBlock=00000004283948c71aa8, hashMerkleRoot=34902b415c, nTime=1391340973, nBits=1d07fff8, nNonce=3881381905, vtx=1)
+  CTransaction(hash=34902b415c, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04e32bee520103062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=039ddec6531f4f351bd4e9254e24c1)
+  vMerkleTree: 34902b415c 
+02/02/14 11:36 generated 50.00
+keypool keep 8
+AddToWallet 34902b415c  new
+SetBestChain: new best=00000002cc67234669a3  height=9  work=5100347648
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 20, size=6
+keypool reserve 15
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000002cc67234669a3
+02/02/14 11:36:15 Flushing wallet.dat
+Flushed wallet.dat 88ms
+ResendWalletTransactions()
+BitcoinMiner:
+proof-of-work found  
+  hash: 0000000116e1617ac898614c219950afee1ed792bd3d144a3f7bd0035eea7301  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000116e1617ac898, ver=1, hashPrevBlock=00000002cc67234669a3, hashMerkleRoot=1f8bbd491d, nTime=1391341320, nBits=1d07fff8, nNonce=1261787918, vtx=1)
+  CTransaction(hash=1f8bbd491d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04ad2dee520101062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=034c520300c5bd478685142aaf2259)
+  vMerkleTree: 1f8bbd491d 
+02/02/14 11:42 generated 50.00
+keypool keep 14
+AddToWallet 1f8bbd491d  new
+SetBestChain: new best=0000000116e1617ac898  height=10  work=5637226752
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 21, size=6
+keypool reserve 16
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 0000000116e1617ac898
+02/02/14 11:42:02 Flushing wallet.dat
+Flushed wallet.dat 47ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000021d6740f6e2dfd04a52605576a360e7a50a69f4c1248af26871f4b7d4  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000021d6740f6e2df, ver=1, hashPrevBlock=0000000116e1617ac898, hashMerkleRoot=66691ca3ed, nTime=1391341494, nBits=1d07fff8, nNonce=1915473926, vtx=1)
+  CTransaction(hash=66691ca3ed, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04082fee520101062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0256a96b68997be154645ca2b5e018)
+  vMerkleTree: 66691ca3ed 
+02/02/14 11:44 generated 50.00
+keypool keep 12
+AddToWallet 66691ca3ed  new
+SetBestChain: new best=000000021d6740f6e2df  height=11  work=6174105856
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+keypool added key 22, size=6
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool reserve 17
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000021d6740f6e2df
+02/02/14 11:44:57 Flushing wallet.dat
+Flushed wallet.dat 113ms
+02/02/14 11:46 hashmeter   4 CPUs   2882 khash/s
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000007ee961825e3811956f8bbc47ba17197172b4f2345769a5b94a8aab064  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000007ee961825e381, ver=1, hashPrevBlock=000000021d6740f6e2df, hashMerkleRoot=844d4eba71, nTime=1391342132, nBits=1d07fff8, nNonce=1422552090, vtx=1)
+  CTransaction(hash=844d4eba71, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04b72fee520106062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0278a9dd742600533ce6ba6c1151d6)
+  vMerkleTree: 844d4eba71 
+02/02/14 11:55 generated 50.00
+keypool keep 15
+AddToWallet 844d4eba71  new
+SetBestChain: new best=00000007ee961825e381  height=12  work=6710984960
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 23, size=6
+keypool reserve 18
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000007ee961825e381
+02/02/14 11:55:34 Flushing wallet.dat
+Flushed wallet.dat 67ms
+CreateNewBlock(): total size 1000
+ResendWalletTransactions()
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000005d05cb3cd66495933ceb1dcae8508f79ee3826cfcd186302b6ec8e05d  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000005d05cb3cd6649, ver=1, hashPrevBlock=00000007ee961825e381, hashMerkleRoot=3bdfa2cd13, nTime=1391342232, nBits=1d07fff8, nNonce=18227716, vtx=1)
+  CTransaction(hash=3bdfa2cd13, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 043432ee520103062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=023241d48dc8fcfcfbc564b2f32a7b)
+  vMerkleTree: 3bdfa2cd13 
+02/02/14 11:57 generated 50.00
+keypool keep 17
+AddToWallet 3bdfa2cd13  new
+SetBestChain: new best=00000005d05cb3cd6649  height=13  work=7247864064
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+keypool added key 24, size=6
+keypool reserve 19
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000005d05cb3cd6649
+02/02/14 11:57:14 Flushing wallet.dat
+Flushed wallet.dat 53ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000011300a5fb4c8fc406c5602316f8a87015d5f3a3fd7a39a89b8bf06746  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000011300a5fb4c8f, ver=1, hashPrevBlock=00000005d05cb3cd6649, hashMerkleRoot=91487a1ac4, nTime=1391342310, nBits=1d07fff8, nNonce=3911548930, vtx=1)
+  CTransaction(hash=91487a1ac4, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 049832ee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0247b971bbec7b23c51a564c6c79a0)
+  vMerkleTree: 91487a1ac4 
+02/02/14 11:58 generated 50.00
+keypool keep 16
+AddToWallet 91487a1ac4  new
+SetBestChain: new best=000000011300a5fb4c8f  height=14  work=7784743168
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 25, size=6
+keypool reserve 20
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000011300a5fb4c8f
+02/02/14 11:58:32 Flushing wallet.dat
+Flushed wallet.dat 66ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000003bf464c1f89fd6149850c34a766358a76af83b69749f89ea7f49a21d0  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000003bf464c1f89fd, ver=1, hashPrevBlock=000000011300a5fb4c8f, hashMerkleRoot=c4b812f133, nTime=1391342587, nBits=1d07fff8, nNonce=3076753417, vtx=1)
+  CTransaction(hash=c4b812f133, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04e632ee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=03093db4633a63535e94849103b33b)
+  vMerkleTree: c4b812f133 
+02/02/14 12:03 generated 50.00
+keypool keep 18
+AddToWallet c4b812f133  new
+SetBestChain: new best=00000003bf464c1f89fd  height=15  work=8321622272
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 26, size=6
+keypool reserve 21
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000003bf464c1f89fd
+02/02/14 12:03:09 Flushing wallet.dat
+Flushed wallet.dat 61ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000007cbd411a150928f84d58f4538b6eb2fd385dc9aa2b210ecadd341ebe6  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000007cbd411a15092, ver=1, hashPrevBlock=00000003bf464c1f89fd, hashMerkleRoot=952b7b65de, nTime=1391342783, nBits=1d07fff8, nNonce=291098885, vtx=1)
+  CTransaction(hash=952b7b65de, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04fb33ee520101062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=033aa2d80d54d2a0873e3b41a49e85)
+  vMerkleTree: 952b7b65de 
+02/02/14 12:06 generated 50.00
+keypool keep 19
+AddToWallet 952b7b65de  new
+SetBestChain: new best=00000007cbd411a15092  height=16  work=8858501376
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 27, size=6
+keypool reserve 22
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000007cbd411a15092
+02/02/14 12:06:25 Flushing wallet.dat
+Flushed wallet.dat 63ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000006676417f1592a9792c76fc752bb1e3ffee0401d8140084b9999b1129e  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000006676417f1592a, ver=1, hashPrevBlock=00000007cbd411a15092, hashMerkleRoot=6f7c14d985, nTime=1391342805, nBits=1d07fff8, nNonce=3151867392, vtx=1)
+  CTransaction(hash=6f7c14d985, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04bf34ee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=025cd5ab5c04d363e809e3b5ebba6d)
+  vMerkleTree: 6f7c14d985 
+02/02/14 12:06 generated 50.00
+keypool keep 22
+AddToWallet 6f7c14d985  new
+SetBestChain: new best=00000006676417f1592a  height=17  work=9395380480
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 28, size=6
+keypool reserve 23
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000006676417f1592a
+02/02/14 12:06:47 Flushing wallet.dat
+Flushed wallet.dat 66ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000004a9e996e6a7d5f72dbaf09f33c38114cf4a0492568e4d88cf1c0ba644  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000004a9e996e6a7d5, ver=1, hashPrevBlock=00000006676417f1592a, hashMerkleRoot=c9dccd0b2c, nTime=1391342913, nBits=1d07fff8, nNonce=3125361667, vtx=1)
+  CTransaction(hash=c9dccd0b2c, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04d534ee520105062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=03c3c0dff9bcfed90c0b77e6f39785)
+  vMerkleTree: c9dccd0b2c 
+02/02/14 12:08 generated 50.00
+keypool keep 21
+AddToWallet c9dccd0b2c  new
+SetBestChain: new best=00000004a9e996e6a7d5  height=18  work=9932259584
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 29, size=6
+keypool reserve 24
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000004a9e996e6a7d5
+02/02/14 12:08:35 Flushing wallet.dat
+Flushed wallet.dat 60ms
+02/02/14 12:16 hashmeter   4 CPUs   2173 khash/s
+ThreadRPCServer method=getinfo
+keypool added key 30, size=6
+keypool reserve 25
+keypool return 25
+02/02/14 12:16:52 Flushing wallet.dat
+Flushed wallet.dat 67ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000068f4048b7c65fabc68db35d1f1f50254a01927cba538264c8e3e28340  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000068f4048b7c65f, ver=1, hashPrevBlock=00000004a9e996e6a7d5, hashMerkleRoot=bbe55c4eb1, nTime=1391343424, nBits=1d07fff8, nNonce=3825929999, vtx=1)
+  CTransaction(hash=bbe55c4eb1, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 044135ee520106062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=029e13e5bf684b78c440d620384ee3)
+  vMerkleTree: bbe55c4eb1 
+02/02/14 12:17 generated 50.00
+keypool keep 24
+AddToWallet bbe55c4eb1  new
+SetBestChain: new best=000000068f4048b7c65f  height=19  work=10469138688
+ProcessBlock: ACCEPTED
+keypool reserve 25
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000068f4048b7c65f
+02/02/14 12:17:06 Flushing wallet.dat
+Flushed wallet.dat 49ms
+ResendWalletTransactions()
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000003918a61c80bfc6bcb71ed613a0f8d9f91a1494a563563ee7a08582a1f  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000003918a61c80bfc, ver=1, hashPrevBlock=000000068f4048b7c65f, hashMerkleRoot=7eab05910a, nTime=1391343526, nBits=1d07fff8, nNonce=1083067139, vtx=1)
+  CTransaction(hash=7eab05910a, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 044037ee520106062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=03fa8a007fd2f1547bfd3289c3318c)
+  vMerkleTree: 7eab05910a 
+02/02/14 12:18 generated 50.00
+keypool keep 5
+AddToWallet 7eab05910a  new
+SetBestChain: new best=00000003918a61c80bfc  height=20  work=11006017792
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 31, size=6
+keypool reserve 26
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000003918a61c80bfc
+02/02/14 12:18:49 Flushing wallet.dat
+Flushed wallet.dat 65ms
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000007a3e7ded8d7a3662d9f049f593b38b45a97f0d73fbd7f7ec67d1cdec6  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000007a3e7ded8d7a3, ver=1, hashPrevBlock=00000003918a61c80bfc, hashMerkleRoot=ef6e0b9331, nTime=1391343671, nBits=1d07fff8, nNonce=767456005, vtx=1)
+  CTransaction(hash=ef6e0b9331, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04a737ee520106062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=025548d54d78b6f81fc2e60a05178b)
+  vMerkleTree: ef6e0b9331 
+02/02/14 12:21 generated 50.00
+keypool keep 23
+AddToWallet ef6e0b9331  new
+SetBestChain: new best=00000007a3e7ded8d7a3  height=21  work=11542896896
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+keypool added key 32, size=6
+keypool reserve 27
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000007a3e7ded8d7a3
+02/02/14 12:21:14 Flushing wallet.dat
+Flushed wallet.dat 68ms
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000000fe1a4c167164b49496ca375ec5fb768916ce8ad0606cc6d75257cdec  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000fe1a4c167164, ver=1, hashPrevBlock=00000007a3e7ded8d7a3, hashMerkleRoot=44dcc30250, nTime=1391344298, nBits=1d07fff8, nNonce=1628051737, vtx=1)
+  CTransaction(hash=44dcc30250, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 043838ee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0276df8e5fa63282149f76d11b8f56)
+  vMerkleTree: 44dcc30250 
+02/02/14 12:31 generated 50.00
+keypool keep 20
+AddToWallet 44dcc30250  new
+SetBestChain: new best=00000000fe1a4c167164  height=22  work=12079776000
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+keypool added key 33, size=6
+keypool reserve 28
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000000fe1a4c167164
+02/02/14 12:31:40 Flushing wallet.dat
+Flushed wallet.dat 75ms
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000004ad7c3eba895421692d873efbdba4ee6bcb1be27db927b9e952cde211  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000004ad7c3eba8954, ver=1, hashPrevBlock=00000000fe1a4c167164, hashMerkleRoot=37530f8d7a, nTime=1391344699, nBits=1d07fff8, nNonce=3248724496, vtx=1)
+  CTransaction(hash=37530f8d7a, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04aa3aee520102062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=034c2bda03073f76633864ffe784af)
+  vMerkleTree: 37530f8d7a 
+02/02/14 12:38 generated 50.00
+keypool keep 26
+AddToWallet 37530f8d7a  new
+SetBestChain: new best=00000004ad7c3eba8954  height=23  work=12616655104
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 34, size=6
+keypool reserve 29
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000004ad7c3eba8954
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000001ad23e981aef086c45c9e2e028c66a94bf99c4e113c9b21b99997bf30  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=00000001ad23e981aef0, ver=1, hashPrevBlock=00000004ad7c3eba8954, hashMerkleRoot=ad8a558e1a, nTime=1391344700, nBits=1d07fff8, nNonce=3552052224, vtx=1)
+  CTransaction(hash=ad8a558e1a, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 043c3cee520103062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=02217041f2cfa2d1f03c15c3487626)
+  vMerkleTree: ad8a558e1a 
+02/02/14 12:38 generated 50.00
+keypool keep 29
+AddToWallet ad8a558e1a  new
+SetBestChain: new best=00000001ad23e981aef0  height=24  work=13153534208
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 35, size=6
+keypool reserve 30
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 00000001ad23e981aef0
+02/02/14 12:38:22 Flushing wallet.dat
+Flushed wallet.dat 73ms
+CreateNewBlock(): total size 1000
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000068ddfb7f08f63e85211510233e1f8be82dc63269c3c50f222498282d3  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000068ddfb7f08f63, ver=1, hashPrevBlock=00000001ad23e981aef0, hashMerkleRoot=b7fe17d8eb, nTime=1391344784, nBits=1d07fff8, nNonce=1646952451, vtx=1)
+  CTransaction(hash=b7fe17d8eb, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 043c3cee520101062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0350187f370f1ad6f43860d1148843)
+  vMerkleTree: b7fe17d8eb 
+02/02/14 12:39 generated 50.00
+keypool keep 25
+AddToWallet b7fe17d8eb  new
+SetBestChain: new best=000000068ddfb7f08f63  height=25  work=13690413312
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 36, size=6
+keypool reserve 31
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000068ddfb7f08f63
+02/02/14 12:39:47 Flushing wallet.dat
+Flushed wallet.dat 65ms
+ResendWalletTransactions()
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000007011954c67b0370f5d8bf27a1c5c04df1f1ad55c920df25d45374192  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000007011954c67b0, ver=1, hashPrevBlock=000000068ddfb7f08f63, hashMerkleRoot=a47c9ff1c2, nTime=1391345015, nBits=1d07fff8, nNonce=1018124297, vtx=1)
+  CTransaction(hash=a47c9ff1c2, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04903cee520106062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=02c7003107bff74c7b2494ec7374ce)
+  vMerkleTree: a47c9ff1c2 
+02/02/14 12:43 generated 50.00
+keypool keep 28
+AddToWallet a47c9ff1c2  new
+SetBestChain: new best=000000007011954c67b0  height=26  work=14227292416
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 37, size=6
+keypool reserve 32
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000007011954c67b0
+02/02/14 12:43:37 Flushing wallet.dat
+Flushed wallet.dat 104ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000006a0098579e1bfb776def38265f17c2232cbddd3d2966bca655b4f450  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000006a0098579e1b, ver=1, hashPrevBlock=000000007011954c67b0, hashMerkleRoot=a8149cbe9c, nTime=1391345018, nBits=1d07fff8, nNonce=3944488960, vtx=1)
+  CTransaction(hash=a8149cbe9c, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04773dee520103062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0276f7e471697da1fa2d111d14706e)
+  vMerkleTree: a8149cbe9c 
+02/02/14 12:43 generated 50.00
+keypool keep 31
+AddToWallet a8149cbe9c  new
+SetBestChain: new best=000000006a0098579e1b  height=27  work=14764171520
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+keypool added key 38, size=6
+keypool reserve 33
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000006a0098579e1b
+02/02/14 12:43:40 Flushing wallet.dat
+Flushed wallet.dat 73ms
+BitcoinMiner:
+proof-of-work found  
+  hash: 000000011172dbadb9173073edac8597392c64e7ec1529fc7f1f49dd3ec0ad38  
+target: 00000007fff80000000000000000000000000000000000000000000000000000
+CBlock(hash=000000011172dbadb917, ver=1, hashPrevBlock=000000006a0098579e1b, hashMerkleRoot=6dd215408d, nTime=1391345121, nBits=1d07fff8, nNonce=1193089796, vtx=1)
+  CTransaction(hash=6dd215408d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 047a3dee520108062f503253482f)
+    CTxOut(nValue=50.00000000, scriptPubKey=0213b81dc68c9df363ada5c47771f1)
+  vMerkleTree: 6dd215408d 
+02/02/14 12:45 generated 50.00
+keypool keep 32
+AddToWallet 6dd215408d  new
+SetBestChain: new best=000000011172dbadb917  height=28  work=15301050624
+ProcessBlock: ACCEPTED
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+CreateNewBlock(): total size 1000
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Running BitcoinMiner with 1 transactions in block
+keypool added key 39, size=6
+keypool reserve 34
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block 000000011172dbadb917
+02/02/14 12:45:24 Flushing wallet.dat
+Flushed wallet.dat 68ms
+02/02/14 12:46 hashmeter   4 CPUs   2672 khash/s
+ThreadRPCServer method=help
+ThreadRPCServer method=stop
+DBFlush(false)
+addr.dat refcount=0
+addr.dat checkpoint
+ThreadMessageHandler exiting
+addr.dat closed
+blkindex.dat refcount=0
+blkindex.dat checkpoint
+blkindex.dat closed
+StopNode()
+ThreadBitcoinMiner exiting, 3 threads remaining
+ThreadBitcoinMiner exiting, 2 threads remaining
+ThreadBitcoinMiner exiting, 1 threads remaining
+ThreadBitcoinMiner exiting, 0 threads remaining
+ThreadSocketHandler exiting
+ThreadOpenConnections exiting
+DBFlush(true)
+addr.dat refcount=0
+addr.dat checkpoint
+addr.dat closed
+Bitcoin exiting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bitcoin version vCLIENT_VERSION_MAJOR.CLIENT_VERSION_MINOR.CLIENT_VERSION_REVISION.CLIENT_VERSION_BUILD-g40fd689-beta ()
+Default data directory /root/.bitcoin
+Loading addresses...
+dbenv.open LogDir=/root/git/cgminer/testnet-box/1/testnet/database ErrorFile=/root/git/cgminer/testnet-box/1/testnet/db.log
+Loaded 0 addresses
+ addresses                21ms
+Loading block index...
+LoadBlockIndex(): hashBestChain=000000011172dbadb917  height=28
+Verifying last 28 blocks at level 1
+ block index               1ms
+Loading wallet...
+nFileVersion = 60202
+ wallet                  174ms
+Done loading
+mapBlockIndex.size() = 29
+nBestHeight = 28
+setKeyPool.size() = 10
+mapWallet.size() = 28
+mapAddressBook.size() = 1
+Bound to port 19000
+ThreadRPCServer started
+ipv4 eth2: 10.1.2.55
+addrLocalHost = 10.1.2.55:19000
+DNS seeding disabled
+ThreadIRCSeed exiting
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exiting
+ThreadMessageHandler started
+ThreadOpenConnections started
+GetMyExternalIP() received [46.120.18.86] 46.120.18.86:0
+GetMyExternalIP() returned 46.120.18.86
+accepted connection 127.0.0.1:39562
+Added time data, samples 2, offset +0 (+0 minutes)
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+keypool reserve 13
+CreateNewBlock(): total size 1000
+ResendWalletTransactions()
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:39562
+accepted connection 127.0.0.1:42173
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:42173
+accepted connection 127.0.0.1:47458
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:47458
+accepted connection 127.0.0.1:48924
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:48924
+accepted connection 127.0.0.1:52273
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:52273
+accepted connection 127.0.0.1:57582
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket closed
+disconnecting node 127.0.0.1:57582
+accepted connection 127.0.0.1:60909
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:60909
+accepted connection 127.0.0.1:37439
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:37439
+accepted connection 127.0.0.1:46236
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:46236
+accepted connection 127.0.0.1:46421
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:46421
+accepted connection 127.0.0.1:48992
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:48992
+accepted connection 127.0.0.1:52296
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:52296
+accepted connection 127.0.0.1:56894
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:56894
+accepted connection 127.0.0.1:57067
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+socket not sending
+disconnecting node 127.0.0.1:57067
+accepted connection 127.0.0.1:58889
+version message: version 60001, blocks=28
+getblocks -1 to 00000000000000000000 limit 500
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+ProcessMessage(ping, 4 bytes) : Exception 'CDataStream::read() : end of data' caught, normally caused by a message being shorter than its stated length
+ProcessMessage(ping, 4 bytes) FAILED
+DBFlush(false)
+addr.dat refcount=0
+ThreadSocketHandler exiting
+addr.dat checkpoint
+addr.dat closed
+blkindex.dat refcount=0
+blkindex.dat checkpoint
+blkindex.dat closed
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+StopNode()
+ThreadOpenConnections exiting
+DBFlush(true)
+addr.dat refcount=0
+addr.dat checkpoint
+addr.dat closed
+Bitcoin exiting
+

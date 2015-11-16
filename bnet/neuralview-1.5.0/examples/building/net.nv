@@ -1,0 +1,12 @@
+local NeuralNetwork = {
+	fixed = nil,
+	description = "Approximation problem, consisting of the prediction of the eletrical\
+energy, hot water and cold water consuption of a building, based on\
+factors like date, time of the day and weather conditions.",
+	maps = {
+		
+	},
+	data = {"Train", "Test"}
+}
+
+return NeuralNetwork
